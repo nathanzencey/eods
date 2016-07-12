@@ -43,18 +43,13 @@ class Place(object):
         try:
             s = self._get_soup(self._link_to_try)
         except urllib2.HTTPError:
-#            self.soup = None
             pass
         else:
-            # self.soup = s
-            # self._read_page(s)
-            # get first page results
             for res in self._read_page(s):
                 self._parse_result(res)
             end_page_num = self._get_end_num(s)
             if end_page_num:
                 self._read_all_pages(2, end_page_num + 1)
-            # if end page number: read all other pages
         finally:
             return
 
@@ -124,5 +119,3 @@ def visit_all_sites():
 def visit_site():
 
     return
-
-
