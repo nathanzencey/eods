@@ -5,10 +5,6 @@ import re
 import urllib2
 
 
-
-# 'Powered by the Socrata Open Data Platform'
-
-
 class Place(object):
 
     def __init__(self, input_dict):
@@ -45,8 +41,6 @@ class Place(object):
     def _get_info(self):
 
         try:
-#            s = bs4.BeautifulSoup(urllib2.urlopen(self.link_to_try).read(),
-#                                  'html.parser')
             s = self._get_soup(self._link_to_try)
         except urllib2.HTTPError:
 #            self.soup = None
@@ -65,7 +59,6 @@ class Place(object):
             return
 
     def _read_all_pages(self, start, end):
-        print(start, end)
 
         #for num in range(start, end):
         for num in range(start, 4):
@@ -108,11 +101,6 @@ class Place(object):
 
         return
 
-#    @staticmethod
-#    def _find(parent_tag, child_tag_type, class_):
-#
-#        return parent_tag.find(child_tag_type, {'class': class_})
-
     @staticmethod
     def _get_end_num(page_soup):
 
@@ -122,15 +110,6 @@ class Place(object):
         end_num = re.search(r".+&page=(\d+)", link).group(1)
 
         return int(end_num)
-
-#    def _get_results(self):
-#
-#        return self.soup.find_all('div', {'class': 'browse2-result'})
-
-class Result(bs4.element.Tag):
-
-    pass
-
 
 
 def visit_all_sites():
@@ -143,32 +122,6 @@ def visit_site():
 
     return
 
-def parse_all_pages(url):
-
-    # for i in range(2,end): parse page-i
-    # need to handle case where there's no last page link
-
-    return
-
-#def parse_first_page(page_soup):
-#
-#    return
-
-#def get_results(page_soup):
-#
-#    return page_soup.find_all('div', {'class': 'browse2-result'})
-
-#def get_soup(url):
-#
-#    try:
-#        soup = bs4.BeautifulSoup(urllib2.urlopen(url).read(), 'html.parser')
-#    except urllib2.HTTPError:
-#        return None
-#    else:
-#        return soup
-
-
 def _integer(number_string):
 
     return int(number_string.replace(',', ''))
-
