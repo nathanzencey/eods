@@ -1,5 +1,4 @@
 import bs4
-import csv
 import numpy as np
 import pandas as pd
 import re
@@ -120,13 +119,38 @@ class Place(object):
 
         return int(number_string.replace(',', ''))
 
+    def make_csv(self, folder='output/'):
 
-def visit_all_sites():
+        file_name = re.sub(r"[\.\[\] (]", r"_", self.name).replace(')', '.csv')
+        if self.datasets is not None:
+            self.datasets.to_csv(folder + file_name, index=False)
+            print('Exported file: ' + file_name)
 
-    # for row in CSV, visit_site(row)
+        return
+
+
+def visit_all_sites(file_path='data/local_open_data_portals.csv'):
+
+    print('Scraping all Socrata sites. This may take a few minutes.\n')
+    all_places_df = pd.read_csv(file_path)
+    all_places = {}
+    for row in all_places_df.iterrows():
+        new_place = Place(row[1].to_dict())
+        all_places[new_place.name] = new_place
+    socrata_places = {k: v for k, v in all_places.iteritems()
+        if (v.datasets is not None) and not v.datasets.empty}
+
+    return all_places, socrata_places
+
+def make_csvs(dict_, folder='output/'):
+
+    for place in dict_.values():
+        place.make_csv(folder)
 
     return
 
-def visit_site():
 
-    return
+if __name__ == '__main__':
+
+    all_places, socrata_places = visit_all_sites()
+    make_csvs(socrata_places)
