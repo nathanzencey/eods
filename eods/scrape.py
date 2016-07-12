@@ -93,7 +93,7 @@ class Place(object):
             'type': _find('span', 'type-name'),
 #            'topics': [t.test.strip() for t in
 #                result.find_all('a', {'class': 'browse2-result-topic'})],
-            'views': _integer(_find('div', 'view-count-value'))
+            'views': self._integer(_find('div', 'view-count-value'))
             #'descrip': _find('div', 'description')
         }
 
@@ -111,6 +111,11 @@ class Place(object):
 
         return int(end_num)
 
+    @staticmethod
+    def _integer(number_string):
+
+        return int(number_string.replace(',', ''))
+
 
 def visit_all_sites():
 
@@ -122,6 +127,4 @@ def visit_site():
 
     return
 
-def _integer(number_string):
 
-    return int(number_string.replace(',', ''))
