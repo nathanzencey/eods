@@ -104,8 +104,6 @@ class Place(object):
     @staticmethod
     def _get_end_num(page_soup):
 
-        print('looking for end num')
-
         link = page_soup.find('a', {'class': 'lastLink'}).get('href')
         end_num = re.search(r".+&page=(\d+)", link).group(1)
 
