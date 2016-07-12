@@ -54,6 +54,7 @@ class Place(object):
                 self._read_all_pages(2, end_page_num + 1)
             v = self.datasets['views']
             self.datasets['views_norm'] = v / np.linalg.norm(v, ord=np.inf)
+            print('Completed: ' + self.name)
         finally:
             return
 
