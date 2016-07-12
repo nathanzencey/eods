@@ -84,17 +84,19 @@ class Place(object):
 
             child_tag = result.find(child_tag_type,
                                     {'class': 'browse2-result-' + class_})
-
-            return child_tag.text.strip().encode('utf-8')
+            if child_tag == None:
+                return None
+            else:
+                return child_tag.text.strip().encode('utf-8')
 
         result_dict = {
             'name': _find('a', 'name-link'),
-#            'category': _find('a', 'category'),
+            'category': _find('a', 'category'),
             'type': _find('span', 'type-name'),
-#            'topics': [t.test.strip() for t in
-#                result.find_all('a', {'class': 'browse2-result-topic'})],
-            'views': self._integer(_find('div', 'view-count-value'))
-            #'descrip': _find('div', 'description')
+            'topics': [t.text.strip() for t in
+                result.find_all('a', {'class': 'browse2-result-topic'})],
+            'views': self._integer(_find('div', 'view-count-value')),
+            'descrip': _find('div', 'description')
         }
 
         self.datasets = self.datasets.append(result_dict, ignore_index=True)
