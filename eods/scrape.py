@@ -55,12 +55,7 @@ class Place(object):
             # self.soup = s
             # self._read_page(s)
             # get first page results
-#            rp = self._read_page(s)
-#            print type(rp)
-#            print len(rp)
-#            print 'first run'
             for res in self._read_page(s):
-#                print 'res'
                 self._parse_result(res)
             end_page_num = self._get_end_num(s)
             if end_page_num:
@@ -74,13 +69,9 @@ class Place(object):
 
         #for num in range(start, end):
         for num in range(start, 4):
-#            print(num)
             url = self._link_to_try + '&utf8=%E2%9C%93&page=' + str(num)
-#            print(url)
             for result in self._read_page(self._get_soup(url)):
-                #print('before')
                 self._parse_result(result)
-                #print('after')
 
         return
 
@@ -91,16 +82,10 @@ class Place(object):
 
     @staticmethod
     def _read_page(page_soup):
-#        print('reading page')
-#        print(type(page_soup.find_all('div', {'class': 'browse2-result'})))
-#        for i in page_soup.find_all('div', {'class': 'browse2-result'}):
-#            print type(i)
 
         return page_soup.find_all('div', {'class': 'browse2-result'})
 
     def _parse_result(self, result):
-
-#        print('parsing result')
 
         def _find(child_tag_type, class_):
 
@@ -108,8 +93,6 @@ class Place(object):
                                     {'class': 'browse2-result-' + class_})
 
             return child_tag.text.strip().encode('utf-8')
-
-#        print('pr2')
 
         result_dict = {
             'name': _find('a', 'name-link'),
@@ -121,15 +104,7 @@ class Place(object):
             #'descrip': _find('div', 'description')
         }
 
-        #print(result_dict)
-
-#        print('pr3')
-#        print(len(self.datasets))
-
         self.datasets = self.datasets.append(result_dict, ignore_index=True)
-#        print(len(self.datasets))
-
-#        print('pr4')
 
         return
 
