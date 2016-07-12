@@ -51,6 +51,13 @@ class Place(object):
             # self.soup = s
             # self._read_page(s)
             # get first page results
+#            rp = self._read_page(s)
+#            print type(rp)
+#            print len(rp)
+#            print 'first run'
+            for res in self._read_page(s):
+#                print 'res'
+                self._parse_result(res)
             end_page_num = self._get_end_num(s)
             if end_page_num:
                 self._read_all_pages(2, end_page_num + 1)
@@ -59,32 +66,87 @@ class Place(object):
             return
 
     def _read_all_pages(self, start, end):
+        print(start, end)
 
-        for num in range(start, end):
-            self._read_page()
+        #for num in range(start, end):
+        for num in range(start, 4):
+#            print(num)
+            url = self._link_to_try + '&utf8=%E2%9C%93&page=' + str(num)
+#            print(url)
+            for result in self._read_page(self._get_soup(url)):
+                #print('before')
+                self._parse_result(result)
+                #print('after')
 
         return
 
-    def _read_page(self, page_soup):
     @staticmethod
     def _get_soup(url):
 
         return bs4.BeautifulSoup(urllib2.urlopen(url).read(), 'html.parser')
 
+    @staticmethod
+    def _read_page(page_soup):
+#        print('reading page')
+#        print(type(page_soup.find_all('div', {'class': 'browse2-result'})))
+#        for i in page_soup.find_all('div', {'class': 'browse2-result'}):
+#            print type(i)
+
+        return page_soup.find_all('div', {'class': 'browse2-result'})
+
+    def _parse_result(self, result):
+
+#        print('parsing result')
+
+        def _find(child_tag_type, class_):
+
+            child_tag = result.find(child_tag_type,
+                                    {'class': 'browse2-result-' + class_})
+
+            return child_tag.text.strip().encode('utf-8')
+
+#        print('pr2')
+
+        result_dict = {
+            'name': _find('a', 'name-link'),
+#            'category': _find('a', 'category'),
+            'type': _find('span', 'type-name'),
+#            'topics': [t.test.strip() for t in
+#                result.find_all('a', {'class': 'browse2-result-topic'})],
+            'views': _integer(_find('div', 'view-count-value'))
+            #'descrip': _find('div', 'description')
+        }
+
+        #print(result_dict)
+
+#        print('pr3')
+#        print(len(self.datasets))
+
+        self.datasets = self.datasets.append(result_dict, ignore_index=True)
+#        print(len(self.datasets))
+
+#        print('pr4')
 
         return
 
+#    @staticmethod
+#    def _find(parent_tag, child_tag_type, class_):
+#
+#        return parent_tag.find(child_tag_type, {'class': class_})
+
     @staticmethod
     def _get_end_num(page_soup):
+
+        print('looking for end num')
 
         link = page_soup.find('a', {'class': 'lastLink'}).get('href')
         end_num = re.search(r".+&page=(\d+)", link).group(1)
 
         return int(end_num)
 
-    def _get_results(self):
-
-        return self.soup.find_all('div', {'class': 'browse2-result'})
+#    def _get_results(self):
+#
+#        return self.soup.find_all('div', {'class': 'browse2-result'})
 
 class Result(bs4.element.Tag):
 
