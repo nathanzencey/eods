@@ -17,7 +17,7 @@ class Place(object):
         self.link = input_dict['Link']
         self.type = input_dict['Type']
 
-        self.datasets = pd.DataFrame()
+        self.datasets = None
 
         self._get_info()
 
@@ -45,6 +45,7 @@ class Place(object):
         except urllib2.HTTPError:
             pass
         else:
+            self.datasets = pd.DataFrame()
             for res in self._read_page(s):
                 self._parse_result(res)
             end_page_num = self._get_end_num(s)
