@@ -25,7 +25,7 @@ class Place(object):
     @property
     def shortlink(self):
 
-        return self.link.lstrip('htps:/').rstrip('/')
+        return self.link.lstrip('htps').lstrip(':/').rstrip('/')
 
     @property
     def name(self):
