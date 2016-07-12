@@ -42,8 +42,9 @@ class Place(object):
     def _get_info(self):
 
         try:
-            s = bs4.BeautifulSoup(urllib2.urlopen(self.link_to_try).read(),
-                                  'html.parser')
+#            s = bs4.BeautifulSoup(urllib2.urlopen(self.link_to_try).read(),
+#                                  'html.parser')
+            s = self._get_soup(self._link_to_try)
         except urllib2.HTTPError:
             self.soup = None
         else:
@@ -65,6 +66,11 @@ class Place(object):
         return
 
     def _read_page(self, page_soup):
+    @staticmethod
+    def _get_soup(url):
+
+        return bs4.BeautifulSoup(urllib2.urlopen(url).read(), 'html.parser')
+
 
         return
 
