@@ -48,7 +48,8 @@ class Place(object):
 #                                  'html.parser')
             s = self._get_soup(self._link_to_try)
         except urllib2.HTTPError:
-            self.soup = None
+#            self.soup = None
+            pass
         else:
             # self.soup = s
             # self._read_page(s)
