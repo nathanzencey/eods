@@ -1,6 +1,6 @@
 import bs4
 import csv
-import pandas
+import pandas as pd
 import re
 import urllib2
 
@@ -19,6 +19,8 @@ class Place(object):
         self.policy = input_dict['Open Data Policy?']
         self.link = input_dict['Link']
         self.type = input_dict['Type ']
+
+        self.datasets = pd.DataFrame()
 
         self._get_info()
 
