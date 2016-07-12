@@ -46,6 +46,7 @@ class Place(object):
         except urllib2.HTTPError:
             pass
         else:
+            print('Starting: ' + self.name)
             self.datasets = pd.DataFrame()
             for res in self._read_page(s):
                 self._parse_result(res)
@@ -65,6 +66,7 @@ class Place(object):
             url = self._link_to_try + '&utf8=%E2%9C%93&page=' + str(num)
             for result in self._read_page(self._get_soup(url)):
                 self._parse_result(result)
+            if num % 10 == 0: print('Completed page ' + str(num))
 
         return
 
