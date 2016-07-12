@@ -12,13 +12,14 @@ import urllib2
 class Place(object):
 
     def __init__(self, input_dict):
+
         self.loc = input_dict['Location']
         self.state = input_dict['State']
         self.pop = input_dict['Population (US Census, 2011)']
         self.ownership = input_dict['Ownership?']
         self.policy = input_dict['Open Data Policy?']
         self.link = input_dict['Link']
-        self.type = input_dict['Type ']
+        self.type = input_dict['Type']
 
         self.datasets = pd.DataFrame()
 
