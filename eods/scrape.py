@@ -41,6 +41,7 @@ class Place(object):
 
     def _get_info(self):
 
+        # TODO: fix case where URL works but returns a 404 page instead of error
         try:
             s = self._get_soup(self._link_to_try)
         except urllib2.HTTPError:
@@ -91,6 +92,7 @@ class Place(object):
             else:
                 return child_tag.text.strip().encode('utf-8')
 
+        # TODO: handles cases where the title background is gray
         result_dict = {
             'name': _find('a', 'name-link'),
             'category': _find('a', 'category'),
