@@ -1,5 +1,6 @@
 import bs4
 import csv
+import numpy as np
 import pandas as pd
 import re
 import urllib2
@@ -51,6 +52,8 @@ class Place(object):
             end_page_num = self._get_end_num(s)
             if end_page_num:
                 self._read_all_pages(2, end_page_num + 1)
+            v = self.datasets['views']
+            self.datasets['views_norm'] = v / np.linalg.norm(v, ord=np.inf)
         finally:
             return
 
