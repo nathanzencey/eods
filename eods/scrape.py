@@ -40,22 +40,24 @@ class Place(object):
 
     def _get_info(self):
 
-        # TODO: fix case where URL works but returns a 404 page instead of error
         try:
             s = self._get_soup(self._link_to_try)
         except urllib2.HTTPError:
             pass
         else:
-            print('Starting: ' + self.name)
-            self.datasets = pd.DataFrame()
-            for res in self._read_page(s):
-                self._parse_result(res)
-            end_page_num = self._get_end_num(s)
-            if end_page_num:
-                self._read_all_pages(2, end_page_num + 1)
-            v = self.datasets['views']
-            self.datasets['views_norm'] = v / np.linalg.norm(v, ord=np.inf)
-            print('Completed: ' + self.name)
+            if self._is_socrata(s):
+                print('Starting: ' + self.name)
+                self.datasets = pd.DataFrame()
+                for res in self._read_page(s):
+                    self._parse_result(res)
+                end_page_num = self._get_end_num(s)
+                if end_page_num:
+                    self._read_all_pages(2, end_page_num + 1)
+                v = self.datasets['views']
+                self.datasets['views_norm'] = v / np.linalg.norm(v, ord=np.inf)
+                print('Completed: ' + self.name)
+            else:
+                pass
         finally:
             return
 
@@ -74,6 +76,15 @@ class Place(object):
     def _get_soup(url):
 
         return bs4.BeautifulSoup(urllib2.urlopen(url).read(), 'html.parser')
+
+    @staticmethod
+    def _is_socrata(page_soup):
+
+        def _is_comment(x): return isinstance(x, bs4.Comment)
+
+        comments = page_soup.find_all(text=_is_comment)
+
+        return ('Powered by the Socrata Open Data Platform' in str(comments))
 
     @staticmethod
     def _read_page(page_soup):
