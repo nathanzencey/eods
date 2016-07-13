@@ -64,7 +64,7 @@ class Place(object):
     def _read_all_pages(self, start, end):
 
         #for num in range(start, end):
-        for num in range(start, 4):
+        for num in range(start, 10):
             url = self._link_to_try + '&utf8=%E2%9C%93&page=' + str(num)
             for result in self._read_page(self._get_soup(url)):
                 self._parse_result(result)
