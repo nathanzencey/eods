@@ -102,7 +102,7 @@ class Place(object):
             else:
                 return child_tag.text.strip().encode('utf-8')
 
-        # TODO: handles cases where the title background is gray
+        # TODO: handle cases where the title background is gray
         result_dict = {
             'name': _find('a', 'name-link'),
             'category': _find('a', 'category'),
