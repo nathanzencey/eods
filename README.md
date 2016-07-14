@@ -41,7 +41,7 @@ We could divide the number of views by the number of days since a data set was p
 
 Another model would be to assume [exponential decay](https://en.wikipedia.org/wiki/Exponential_decay), like what happens with radioactive decay. In this case, a data set might be assumed to have a "half-life," i.e. a length of time it takes for the average daily number of views to fall by half. In this case, a graph of page views over time might resemble this:
 
-![Half-life graph](/images/Half_Life.gif)
+![Half-life graph](/eods/images/Half_Life.gif)
 
 This model isn't too bad. But a major question is, what length of a half-life should we assume? I have no clue. It's also worth noting that with a case like this, using the cumulative total number of views isn't a half-bad option; since the number of daily views declines with time, the growth rate of cumulative views slows with time.
 
