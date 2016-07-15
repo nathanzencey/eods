@@ -10,7 +10,7 @@ The `output` folder (inside the `eods` folder) has sample results. Note that the
 
 The next step is to analyze the data for trends. If we take each word in the title of each data set and assign it the value of either the number of views for that set, the normalized number of views, or the normalized number of views multiplied by the population, we can then sum all of these figures to get an aggregate "words that are in titles of data sets that are most viewed" value. The three respective calculation options will give results weighted for different purposes: the first will be weighted toward those portals that are most viewed, the second will weight all cities/portals equally, and the third will be weighted toward cities with larger populations.
 
-We can also apply that technique to the words in the list of topics for each data set.
+We can also apply that technique to the words in the list of topics for each data set. See "Early results" below for results from doing this analysis on topics using normalized page views.
 
 Moving beyond this, another consideration is that some data sets (like budget data) have a new set uploaded each year. For these, we can replace all the years numbers with text like "<YEAR>" and then sum the number of views for these data sets across years. This will give a better sense of how many views these types of data sets get, as the views won't be split up among a number of separate uploads.
 
@@ -23,6 +23,37 @@ When adopting open data policies and trying to make their data easier to use, on
 - An important issue with open data is the adoption of [common standards for specific data sets](link). There is much work to be done here, as most open data sets do not conform to any standard structure, limiting the potential for their use. These priority data sets can be some of the first ones the open data community tries to develop common standards for.
 
 I created EODS as a set of tools that can be used to understand and analyze data on the popularity of open data sets across cities, thus assisting with the three points above.
+
+
+## Early results
+
+A quick analysis of the topics of the most viewed data sets shows these as the top 15:
+
+topic|score
+---|---
+alcohol|12.66636121
+license|11.93841821
+police|9.629868164
+elections|9.283633078
+beer|8.350822551
+liquor|7.796312186
+wine|7.76299113
+shipping|6.76299113
+crime|6.601969493
+missouri|5.59121643
+public safety|4.567057119
+results|4.500888592
+county|4.333576942
+king county|4.06204654
+fire|3.429160433
+
+To generate these numbers, I used the technique described in the "Summary" section above, specifically using the list of topics associated with each data set, and using normalized page views. You can find a table with the full results [here](https://github.com/gregjd/eods/blob/master/eods/summaries/top_topics_normalized.csv). Also note that this used my sample data, which consists only of the top 90 data sets for about half the Socrata cities.
+
+There are a few things we can observe here. Many of the top topics relate to alcohol, which likely indicates that one or more highly viewed data sets on this topic were tagged with many alcohol-related topics. Also we can see some geographical noise, with topics like "Missouri" and "King County" appearing prominently (a result of some places tagging many of their data sets with their location).
+
+Still, this list offers some insights. We can see that popular open data set topics include those related to alcohol, licenses, public safety, and elections. If you check out the full list, other prominent topics include salaries, restaurant inspections, labor, health, GIS, open meetings, and transportation.
+
+An important thing to keep in mind is that these topics are at the discretion of the uploaders, so some topics may appear more prominently because many cities use the exact same topic, whereas some other topics of highly viewed data sets might be less prominent on this list if different cities assign different topics to similar data sets.
 
 
 ## Next steps
