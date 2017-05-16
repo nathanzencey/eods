@@ -4,7 +4,7 @@ EODS: Exploring Open Data Sets
 
 ## Summary
 
-EODS currently consists of a web scraper, `scrape.py`, that looks through [a list of open data portals](link to Sunlight CSV on GitHub) and tests each website to see if it uses Socrata. If a portal uses Socrata, the scraper goes through the site and compiles a list of the metadata (including views) for each of the data sets. It then calculates a normalized number of views (on a scale of 0 to 1) for each data set, so that the relative popularity of specific datasets can be compared across cities. Each of these lists of metadata is then exported as a CSV (found [here](link to folder on GitHub)).
+EODS currently consists of a web scraper, `scrape.py`, that looks through [a list of open data portals](https://github.com/sunlightpolicy/opendata/blob/master/USlocalopendataportals.csv) and tests each website to see if it uses Socrata. If a portal uses Socrata, the scraper goes through the site and compiles a list of the metadata (including views) for each of the data sets. It then calculates a normalized number of views (on a scale of 0 to 1) for each data set, so that the relative popularity of specific datasets can be compared across cities. Each of these lists of metadata is then exported as a CSV (found [here](https://github.com/gregjd/eods/tree/master/eods/output)).
 
 The `output` folder (inside the `eods` folder) has sample results. Note that these samples only include the top 90 data sets for each city, and only about half of the Socrata cities. Web scraping this many pages can take quite a while, which is why I limited the results.
 
