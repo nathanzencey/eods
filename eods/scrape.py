@@ -44,6 +44,7 @@ class Place(object):
         try:
             s = self._get_soup(self._link_to_try)
         except urllib2.HTTPError:
+            print('Error Scraping ' + _link_to_try)
             pass
         else:
             if self._is_socrata(s):
@@ -58,6 +59,7 @@ class Place(object):
                 self.datasets['views_norm'] = v / np.linalg.norm(v, ord=np.inf)
                 print('Completed: ' + self.name)
             else:
+                print('Not Socrata? ' + _link_to_try)
                 pass
         finally:
             return
