@@ -7,7 +7,7 @@ import urllib2
 
 class Place(object):
 
-    def __init__(self, input_dict):
+    def __init__(self, input_dict): #passing a dict for attributes
 
         self.loc = input_dict['Location']
         self.state = input_dict['State']
@@ -21,7 +21,8 @@ class Place(object):
 
         self._get_info()
 
-    @property
+    @property #allows you to return it with no brackets; 
+    #basically makes a method into an attribute
     def shortlink(self):
 
         return self.link.lstrip('htps').lstrip(':/').rstrip('/')
@@ -72,7 +73,8 @@ class Place(object):
 
         return
 
-    @staticmethod
+    @staticmethod #this is basically a decorator
+    #doesn't depend on object properties
     def _get_soup(url):
 
         return bs4.BeautifulSoup(urllib2.urlopen(url).read(), 'html.parser')
