@@ -159,6 +159,7 @@ def visit_all_sites(file_path='data/local_open_data_portals.csv'):
         new_place = Place(row[1].to_dict()) #access the iterrows() Series
         all_places[new_place.name] = new_place #adding key, value in the dict
         #key is name, value is place object
+    socrata_places = {k: v for k, v in all_places.items()
         if (v.datasets is not None) and not v.datasets.empty}
 
     return all_places, socrata_places
