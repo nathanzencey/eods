@@ -2,7 +2,7 @@ import bs4
 import numpy as np
 import pandas as pd
 import re
-import urllib2
+from urllib.request import urlopen
 
 
 class Place(object):
@@ -43,7 +43,8 @@ class Place(object):
 
         try:
             s = self._get_soup(self._link_to_try)
-        except urllib2.HTTPError:
+        #except urllib.error.HTTPError: #updated for new urllib.request package
+        except:
             print('Error Scraping ' + _link_to_try)
             pass
         else:
@@ -78,8 +79,10 @@ class Place(object):
     @staticmethod #this is basically a decorator
     #doesn't depend on object properties
     def _get_soup(url):
-
-        return bs4.BeautifulSoup(urllib2.urlopen(url).read(), 'html.parser')
+        #urllib2 has been split for Python 3; using urllib.request
+        var = bs4.BeautifulSoup(urllib.request.urlopen(url).read(), 'html.parser')
+        print(type(var))
+        return var
 
     @staticmethod
     def _is_socrata(page_soup):
