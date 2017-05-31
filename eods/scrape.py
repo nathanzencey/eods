@@ -76,8 +76,8 @@ class Place(object):
 
         return
 
-    @staticmethod #this is basically a decorator
-    #doesn't depend on object properties
+    @staticmethod #this is basically a decorator;
+    #a method that doesn't depend on object properties
     def _get_soup(url):
         #urllib2 has been split for Python 3; using urllib.request
         var = bs4.BeautifulSoup(urllib.request.urlopen(url).read(), 'html.parser')
