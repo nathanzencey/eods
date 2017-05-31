@@ -143,6 +143,9 @@ class Place(object):
         if self.datasets is not None:
             self.datasets.to_csv(folder + file_name, index=False)
             print('Exported file: ' + file_name)
+        else:
+            print('No files to export')
+        #trying an else clause in case .datasets is empty
 
         return
 
