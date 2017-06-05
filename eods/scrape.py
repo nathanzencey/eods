@@ -91,11 +91,12 @@ class Place(object):
     @staticmethod
     def _is_socrata(page_soup):
 
-        def _is_comment(x): return isinstance(x, bs4.Comment)
+        def _is_comment(x): return isinstance(x, bs4.Comment) #evaluates to boolean
 
-        comments = page_soup.find_all(text=_is_comment)
-
-        return ('Powered by the Socrata Open Data Platform' in str(comments))
+        comments = page_soup.find_all(string=_is_comment) #string arg is boolean
+        #find_all(string=True) returns text beneath a tag
+        #find_all(string=False) returns everything in bs4 Parser object
+        return ('ocrata' in str(comments)) #evaluates to boolean
 
     @staticmethod
     def _read_page(page_soup):
@@ -118,6 +119,7 @@ class Place(object):
                 return child_tag.text.strip().encode('utf-8')
 
         # TODO: handle cases where the title background is gray
+        #result_dict is how you populate self.datasets
         result_dict = {
             'name': _find('a', 'name-link'),
             'category': _find('a', 'category'),
@@ -129,7 +131,7 @@ class Place(object):
         }
 
         self.datasets = self.datasets.append(result_dict, ignore_index=True)
-
+        ##results_dict must be something, or self.datasets is empty
         return
 
     @staticmethod
