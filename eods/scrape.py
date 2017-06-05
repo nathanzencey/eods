@@ -70,8 +70,7 @@ class Place(object):
 
     def _read_all_pages(self, start, end):
         print('running _read_all_pages')
-        #for num in range(start, end): #un-comment to scrape all
-        for num in range(start, 3): 
+        for num in range(start, end): #range(start, end) to scrape all
             url = self._link_to_try + '&utf8=%E2%9C%93&page=' + str(num)
             for result in self._read_page(self._get_soup(url)):
                 self._parse_result(result)
