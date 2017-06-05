@@ -115,7 +115,9 @@ class Place(object):
                 return None 
 
             else:
-                return child_tag.text.strip().encode('utf-8')
+                return child_tag.text.strip()
+                # return child_tag.text.strip().encode('utf-8') #THIS WAS THE PROBLEM
+                # #.strip() with no args removes whitespace at beginning and end of string
 
         # TODO: handle cases where the title background is gray
         #result_dict is how you populate self.datasets
