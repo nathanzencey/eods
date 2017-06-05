@@ -19,7 +19,8 @@ class Place(object):
 
         self.datasets = None
 
-        self._get_info()
+        self._get_info() #runs automatically whenever you instantiate this object
+        #visit_all_sites instantiates a Place object
 
     @property #allows you to return it with no brackets; 
     #basically makes a method into an attribute
@@ -40,7 +41,6 @@ class Place(object):
         return link + 'browse?sortBy=most_accessed'
 
     def _get_info(self): 
-        #print('running _get_info..')
         try: 
             s = self._get_soup(self._link_to_try)
         #except urllib.error.HTTPError: #updated for new urllib.request package
@@ -54,16 +54,16 @@ class Place(object):
                 print('Starting: ' + self.name) 
                 self.datasets = pd.DataFrame() #empty df
                 for res in self._read_page(s): #_read_page(s) returns what it finds from soup object
-                    self._parse_result(res)
+                    self._parse_result(res) 
                 end_page_num = self._get_end_num(s)
                 if end_page_num:
                     self._read_all_pages(2, end_page_num + 1)
                 v = self.datasets['views']
                 self.datasets['views_norm'] = v / np.linalg.norm(v, ord=np.inf)
-                print('Completed: ' + self.name)
+                print('Completed: ' + self.name) 
             else:
                 print('Not a Socrata Site')
-                print('Not Socrata? ' + _link_to_try) ##but this isn't happening either
+                print('Not Socrata? ' + _link_to_try) 
                 pass
         finally:
             return
@@ -83,7 +83,6 @@ class Place(object):
     #a method that doesn't depend on object properties
     def _get_soup(url):
         #urllib2 has been split for Python 3; using urllib.request
-        #print('Running _get_soup')
         var = bs4.BeautifulSoup(req.urlopen(req.Request(url)).read(), 'html.parser')
         print(type(var))
         return var
@@ -100,21 +99,21 @@ class Place(object):
 
     @staticmethod
     def _read_page(page_soup):
-        print('running _read_page')
+        #print('Reading through page..')
         return page_soup.find_all('div', {'class': 'browse2-result'})
 
     def _parse_result(self, result):
-        print('running _parse_result')
-        ##_find is probably the root of the empty .datasets problem!!
-        ##because __find builds your result_dict; result dict is passed to .datasets attr
+        #print('Parsing results..')
+        #__find builds your result_dict; result dict is passed to .datasets attr
         def _find(child_tag_type, class_):
-
+            #result is a soup object 
             child_tag = result.find(child_tag_type,
                                     {'class': 'browse2-result-' + class_})
+            
             if child_tag == None:
                 print('Whoops, no child_tag')
-                return None #so this coud be returning none
-                #and thus there's nothing in result_dict
+                return None 
+
             else:
                 return child_tag.text.strip().encode('utf-8')
 
@@ -131,12 +130,11 @@ class Place(object):
         }
 
         self.datasets = self.datasets.append(result_dict, ignore_index=True)
-        ##results_dict must be something, or self.datasets is empty
+
         return
 
     @staticmethod
     def _get_end_num(page_soup):
-
         link = page_soup.find('a', {'class': 'lastLink'}).get('href')
         end_num = re.search(r".+&page=(\d+)", link).group(1)
 
@@ -148,39 +146,38 @@ class Place(object):
         return int(number_string.replace(',', ''))
 
     def make_csv(self, folder='output/'):
-        print('running make_csv') ##not printing; not running
+        print('Exporting csv file..') 
         file_name = re.sub(r"[\.\[\] (]", r"_", self.name).replace(')', '.csv')
         if self.datasets is not None:
             self.datasets.to_csv(folder + file_name, index=False)
             print('Exported file: ' + file_name)
         else:
             print('No files to export')
-        ##trying an else clause in case .datasets is empty
 
         return
 
-
 def visit_all_sites(file_path='data/local_open_data_portals.csv'):
-
     print('Scraping all Socrata sites. This may take a few minutes.\n')
     all_places_df = pd.read_csv(file_path)
-    all_places = {} #is this dict actually getting filled from all_places_df?
+    all_places = {} 
     for row in all_places_df.iterrows():
-        new_place = Place(row[1].to_dict()) #access the iterrows() Series
+        new_place = Place(row[1].to_dict()) #access the iterrows() Series;
+        #converts this Series to a dict, then uses Dict to instantiate a Place object
         all_places[new_place.name] = new_place #adding key, value in the dict
         #key is name, value is place object
-    socrata_places = {k: v for k, v in all_places.items() ##socrata places is empty
-        if (v.datasets is not None) and not v.datasets.empty} ##so v.datasets is prob empty
-        ##so find where you are populating the attribute .datasets and fix
-    print(len(socrata_places)) ##yeah, so socrata_places is empty as 0 is being returned
-    print('ran visit_all_sites')
+
+    socrata_places = {k: v for k, v in all_places.items() 
+        if (v.datasets is not None) and not v.datasets.empty} 
+    print('Socrats Sites Found: ') 
+    print(len(socrata_places))
+
     return all_places, socrata_places
 
 def make_csvs(dict_, folder='output/'):
-    print('running make_csvS')
+    print('Making csv file..')
     for place in dict_.values(): ##socrata_places is dict_. is socrata places empty?
         place.make_csv(folder)
-    print('ran make_csvS')
+
     return
 
 
