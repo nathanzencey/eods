@@ -21,3 +21,139 @@ Please click here for incidents prior to August 2015: https://data.cityofboston.
 ,Earnings for City of Boston Employees for calendar year 2016.,Employee Earnings Report 2016,"['finance', 'payroll', 'employees']",Dataset,6936.0,0.0008939323952026659
 Health,Summer farmers' market in Boston and surrounding areas that accept various forms of food assistance benefits. Subject to change in future seasons; information listed was accurate as of spring 2013. Please contact us with any corrections: genevieve.goldleaf@cityofboston.gov,Farmers Markets With Benefits,"['local food', 'food access', 'office of food initiatives', 'food initiatives', 'farmers markets']",Dataset,6580.0,0.0008480500519656202
 City Services,"Neighborhood boundaries are created based on zip code, zoning district boundaries and census tract boundaries. This GIS data layer was produced by the BRA Office of Digital Cartography and GIS.  These boundaries should not be considered official neighborhood boundaries for the City of Boston.  The locations of features and boundaries shown on this map are approximate and are intended for planning and visualization purposes only. This is not intended for survey, engineering, or legal purposes.",Boston Neighborhood Shapefiles,"['shapefiles', 'bra', 'neighborhoods']",File or Document,6377.0,0.0008218868056815745
+Finance,,Checkbook Explorer,[],Dataset,6273.0,0.0008084829750729994
+City Services,RJP Compliance Data,Boston Jobs Policy Compliance Reports,"['jobs', 'residency', 'bra']",Dataset,5811.0,0.0007489390352541366
+Transportation,,Park Boston Monthly Transactions By Zone 2015,"['btd', 'transportation', 'transactions', 'meters', 'parking']",Dataset,5789.0,0.0007461036095484765
+City Services,Open constituent requests for city services,"311, Open Service Requests Map","[""mayor's office"", 'service requests', '311']",Map,4465.0,0.0005754625352623851
+City Services,RJP Compliance Data,"Boston Jobs Policy Compliance Reports, Boston Residents Jobs Policy Office","['jobs', 'residency', 'bra']",Filtered View,4231.0,0.0005453039163930911
+Public Safety,BPD FIO 2011 Thru June 2015,Boston Police Department FIO,"['policing', 'bpd']",Dataset,4077.0,0.0005254559364534702
+Permitting,,Public Works Active Work Zones,"['paving', 'work zones', 'construction', 'public works']",Dataset,3990.0,0.0005142431166174506
+City Services,RJP Compliance Data,"Boston Jobs Policy Compliance Reports, Boston Redevelopment Authority","['jobs', 'residency', 'bra']",Filtered View,3794.0,0.0004889820512397513
+Finance,"All City of Boston employees earnings, calendar year 2011",Employee Earnings Report 2011,"['2011', 'finance', 'payroll', 'employees']",Dataset,3685.0,0.0004749338056980715
+Transportation,"Boston taxi cab pick-up and drop-offs over 7-months from 05/2012 through 11/2012 . Locations outside of central business districts were excluded from the data set. The accompanying shape files indicate the ares included in this data set in the file ""data_request_06302014"". This filtering results in Trip IDs not always having corresponding pick-ups and drop-offs.",Boston Taxi Data,"['transportation', 'taxi']",File or Document,3671.0,0.0004731294438853787
+City Services,The list of all property addresses in the city,Master Address List,"['location', 'property', 'gis', 'parcels', 'addressing']",Dataset,3668.0,0.00047274279492551594
+Permitting,Listing of food establishments with active licenses,Active Food Establishment Licenses,"['inspections', 'business', 'restaurants', 'food']",Dataset,3546.0,0.0004570190705577643
+Public Safety,Crime Incident Reports provided by Boston Police Department,Crime Incident Reports by Weapon Type,"['safety', 'incidents', 'crime', 'police']",Chart,3424.0,0.0004412953461900127
+,Parking tickets issued 2/23/2015 - 3/1/2015,Parking Tickets,"['hubhacks', 'transportation', 'citations', 'parking', 'tickets']",Dataset,3278.0,0.00042247843014335914
+City Services,trash/recycling schedules by address,Trash Schedules by Address,"['public works', 'sanitation', 'recycling', 'trash']",Dataset,2766.0,0.0003564903409934507
+City Services,,Mayors 24 Hour Hotline (Cases created last 90 days),"[""mayor's office"", 'service requests', '311']",Dataset,2743.0,0.00035352603230116966
+City Services,Current street sweeping schedules,Street Sweeping Schedules,"['street sweeping', 'parking', 'public works']",Dataset,2669.0,0.00034398869129122195
+Permitting,Listing of food establishments with active licenses,Active Food Establishment Map,"['inspections', 'business', 'restaurants', 'food']",Map,2668.0,0.000343859808304601
+City Services,Calls for storm related service to the Mayor's Hotline during Nemo (2/8/2013-2/10/2013),311 (NEMO Snow Related Calls),"['nemo', 'snow', ""mayor's office"", 'service requests', '311']",Dataset,2523.0,0.0003251717752445684
+Transportation,Waze Jam data 2/21/2015 - 3/1/2-15. Join with Waze point data set by UUID for detailed location,Waze Jam Data,"['hubhacks', 'jams', 'traffic', 'waze']",Dataset,2519.0,0.0003246562432980847
+Facilities,Buildings and space owned by the City of Boston,City of Boston Owned Property,[],Map,2241.0,0.00028882677301747035
+City Services,All signals received from Big Belly trash receptacles throughout the city for the year 2014,Big Belly Alerts 2014,"['hubhacks', 'public works', 'sanitation', 'trash', 'big belly']",Dataset,2169.0,0.0002795471979807645
+,"This data set contains electricity, natural gas, and heating oil usage for all City buildings above 25,000 square feet. This data set is exclusive to the April 5/7 Clean Web Challenge.",Municipal Energy Data,"['climate change', 'oil', 'natural gas', 'berdo', 'kwh']",Dataset,2135.0,0.00027516517643565337
+Transportation,Waze Alerts 2/23/2015 - 3/1/2015. Join with Jam Data and Point data by UUID.,Waze Alert Data,"['hubhacks', 'traffic', 'alerts', 'transportation', 'waze']",Dataset,2109.0,0.0002718142187835096
+City Services,"This file contains all tweets sent from March 1, 2014 to March 1, 2015 that tag the @NotifyBoston account in the content of the tweet.",Tweets sent from any user tagging the @NotifyBoston account in the tweet from March 2014 - March 2015,"['social media', 'communication', 'service', 'engagement', 'tweets']",Dataset,1983.0,0.0002555749624692743
+Health,"Urban orchards and fruit trees in and around the city of Boston. Please note: locations have not been verified, and may be on private property, inaccessible, not bearing fruit, or no longer there. Always confirm permission to enter and forage with any property owners. Use utmost caution in identifying and consuming any fruit. Feel free to contact us with any information pertaining to current conditions, and we will update the data.",Urban Orchards,"['urban agriculture', 'green streets', 'trees', 'orchards', 'fruit']",Dataset,1945.0,0.0002506774089776795
+Finance,"The CORI Vendor Report is a report of Vendors that have Contracts for $5,000 or greater.
+Vendors are listed more than once where the vendor has more than one contact.",CORI Vendor Report,"['contracts', 'finance', 'cori', 'vendors']",Dataset,1738.0,0.00022399863074715014
+City Services,Executive order signed by Mayor Walsh regarding open data and transparency,COB - Executive Order - Open Data 4-7-2014,"['executive order', 'mayor', 'transparency', 'open data']",File or Document,1675.0,0.0002158790025900325
+,2/21/2015-3/1/2015 Waze point data to use with Jam and Alert datasets. Join by UUID column,Waze Point Data,"['hubhacks', 'points', 'location', 'waze']",Dataset,1636.0,0.00021085256611181683
+Health,Community garden sites throughout Boston. Access may be restricted to community members. Inaccurate information? Contact us with corrections.,Community Gardens,"['urban agriculture', 'green space', 'food security', 'food access', 'gardens']",Dataset,1628.0,0.0002098215022188495
+Public Safety,Boston Police Department station locations,Boston Police District Stations,"['gis', 'facilities', 'police']",Dataset,1613.0,0.0002078882574195358
+Facilities,Monthly utility data for all City of Boston accounts FY2011-present,City of Boston Utility Data (2011-2015),"['steam', 'water', 'gas', 'electric', 'utility']",Dataset,1591.0,0.00020505283171387564
+City Services,Department of Neighborhood Development managed city owned property. Spatial projection WGS 84 long lat (EPSG:4326) .,Department of Neighborhood Development - Property Inventory,"['development', 'neighborhood', 'housing', 'property']",Dataset,1588.0,0.0002046661827540129
+Health,Boston Public Health Commission Asbestos permitting,Asbestos Removal Permits,"['asbestos', 'hubhacks', 'bphc', 'health', 'permits']",Dataset,1577.0,0.00020324846990118283
+Finance,"The CORI Vendor Report is a report of Vendors that have Contracts for $5,000 or greater.
+Vendors are listed more than once where the vendor has more than one contact.",CORI Vendor Report - Updated as of May 2016,"['contracts', 'finance', 'cori', 'vendors']",Dataset,1573.0,0.0002027329379546992
+Permitting,"Permits issued by Public Works, Transportation, Inspectional Services, and the Fire Department",Issued Moving Truck Permits,"['hubhacks', 'transportation', 'public works', 'occupancy', 'permits']",Filtered View,1489.0,0.00019190676707854233
+,Location of Boston Public Schools for school year 2012-2013,Boston Public Schools (School Year 2012-2013),"['gis', 'schools', 'education', 'facilities']",Dataset,1468.0,0.0001892002243595031
+Health,Food banks and food pantries in the city of Boston and surrounding areas that are partially supplied with local produce. Accurate as of August 2012. Inaccurate information? Let us know!,Food Pantries,"['food access', 'hunger', 'food initiatives', 'food']",Dataset,1392.0,0.00017940511737631358
+,Alcohol licenses are issued to places of business after they receive approval from this Board and the Alcoholic Beverages Control Commission (?ABCC?).,Liquor Licenses,"['hubhacks', 'alcohol', 'liquor licenses', 'licensing board']",Dataset,1348.0,0.00017373426596499332
+City Services,Counts of the number of connections to Wicked Free Wi-Fi by neighborhood,Wicked Free Wi-Fi Daily Connections,"['connectivity', 'web', 'internet', 'wireless', 'wi-fi']",Dataset,1187.0,0.000152984105119026
+Facilities,Electric Power Cost & Usage Details from Department of Public Works,"Street Light Control Box, Electric Power Cost & Usage Details","['hubhacks', 'power', 'energy', 'efficiency', 'lighting']",Dataset,1176.0,0.00015156639226619596
+Permitting,Inspectional Services violations found by Code Enforcement with citations issued,Code Enforcement - Building and Property Violations (September 2015 Move In),"['citations', 'violations', 'code enforcement', 'permits', 'buildings']",Map,1090.0,0.00014048245541679728
+Public Safety,represents the non-administrative dispatches for public safety agencies,911 Daily Dispatch Count By Agency,"['dispatch', 'public safety', '911']",Dataset,1075.0,0.00013854921061748354
+City Services,The policy that covers all open and proctected data within the City of Boston. Managed by the office of the CIO under the authority of Executive Order,Open and Protected Data Policy,"['open. protected', 'data', 'policy']",File or Document,1010.0,0.00013017181648712408
+Facilities,List of all LED retrofitted street lights.,Street Light Retrofits(2014),"['hubhacks', 'efficiency', 'environment', 'energy', 'street light']",Dataset,988.0,0.00012733639078146394
+Public Property,This is a list of a City-run swimming pools that are open year round.,Year-Round Swimming Pools,"['facilities', 'health', 'recreation']",Dataset,971.0,0.00012514538000890838
+Permitting,"Permits issued by Public Works, Transportation, Inspectional Services, and the Fire Department","Moving Truck Permits, September 2015","['hubhacks', 'transportation', 'public works', 'occupancy', 'permits']",Filtered View,956.0,0.00012321213520959467
+Health,"Corner stores and bodegas participating in the Healthy Corner Stores Initiative sponsored by the Boston Public Health Commission, and other community health center healthy corner store project locations. Accurate as of December 2012: please contact with corrections and updates!",Healthy Corner Stores,"['healthy food', 'food security', 'food access', 'public health', 'corner stores']",Dataset,953.0,0.00012282548624973193
+Permitting,Consumer Affairs Entertainment Licenses,Entertainment Licenses,"['hubhacks', 'permits', 'licenses', 'venues', 'entertainment']",Dataset,950.0,0.0001224388372898692
+Facilities,Location of all streetlights in the city,Streetlight Locations,"['streetlights', 'infrastructure', 'lights', 'public works', 'hubhacks']",Map,936.0,0.00012063447547717637
+Permitting,Inspectional Services violations found by Code Enforcement with citations issued,Code Enforcement - Building and Property Violations (September 2015 Move In Filter),"['citations', 'violations', 'code enforcement', 'permits', 'buildings']",Filtered View,919.0,0.00011844346470462082
+,Corner store locations in Boston,Corner Stores,"['food initiatives', 'food access', 'food', 'retail', 'corner stores']",Dataset,916.0,0.00011805681574475807
+Transportation,Extract of MBTA Bus location data 2/23/2015-3/1/2015,MBTA Bus Location Data,"['hubhacks', 'transportation', 'location', 'bus']",External Link,902.0,0.00011625245393206526
+Transportation,Workorders for sign replacement/repair,BTD - Sign Shop Completed Workorders,"['workorders', 'transit', 'btd', 'signs']",Dataset,878.0,0.00011315926225316331
+Finance,Economic indicators collected by the Boston Redevelopment Authority. Figures subject to update.,Economic Indicators,"['hubhacks', 'growth', 'bra', 'indicators', 'economics']",Dataset,795.0,0.00010246197436362736
+Permitting,Establishments licensed by the Boston Licensing Board,All Section 12 Alcohol Licenses,"['permitting', 'alcohol', 'license', 'liquor']",Dataset,787.0,0.00010143091047066004
+,,FY17 COB Gen Fund Budget,[],Dataset,784.0,0.0001010442615107973
+City Services,"This file contains all tweets sent from the @NotifyBoston twitter account from March 1, 2014 through March 1, 2015, including time stamp, tweet content, and engagement (i.e. retweets, favorites)",Tweets sent from @NotifyBoston from March 2014 - March 2015,"['social media', 'engagement', 'tweets', 'twitter']",Dataset,751.0,9.679112295230711e-05
+,,FY 16 Gen Fund Budget,[],Dataset,740.0,9.537341009947704e-05
+Facilities,"Energy and water use metrics for large buildings in calendar year 2014, as submitted by buildings for Boston's energy reporting ordinance.",Building Energy and Water Use Metrics,"['facilities', 'buildings', 'water', 'environment', 'energy']",Dataset,732.0,9.434234620650972e-05
+,,FY16 COB Gen Fund Budget-2,[],Dataset,717.0,9.2409101407196e-05
+,Urban farms in the city of Boston.,Urban Farms,"['urban agriculture', 'food initiatives', 'food']",Dataset,715.0,9.215133543395416e-05
+City Services,web statistics for http://www.cityofboston.gov/parking/payment.asp for 2014,Parking Tickets Portal Web Statistics,"['hubhacks', 'payments', 'city services', 'online', 'website']",Dataset,715.0,9.215133543395416e-05
+Health,Data as provided by Runkeeper. Separate licensing may apply.,Runkeeper,[],External Link,657.0,8.46761222099411e-05
+,"Full CityScore metric list containing actual, target, and score data.
+See Attachments section below for a data dictionary and list of metric definitions. 
+**Please note that CityScore captures a data snapshot once every weekday. Source systems are constantly updating, and these updates can include revisions to existing data that could affect CityScore's calculations. The most recent records are always the most accurate. 
+In addition, you may notice null values in the data set, which indicate that CityScore has no data for a given time period. This most often occurs when a particular data source is updated on a different schedule than CityScore's calculations. We are currently working to adjust our process to allow CityScore to capture data every day, including weekends, as well as to retroactively generate values for fields created after the initial CityScore launch in January.**",CityScore Full Metric List,"['performance management', 'cityscore']",Dataset,642.0,8.274287741062738e-05
+Public Health,Locations of Hospitals within the city,Hospital Locations,"['hospitals', 'facilities', 'health']",Dataset,639.0,8.235622845076464e-05
+,,Boston Open Budget - Capital Budget,[],Dataset,638.0,8.222734546414373e-05
+Facilities,School gardens in and near the City of Boston. School grounds may be private property. Inaccurate information? Let us know!,School Gardens,"['food initiatives', 'boston public schools', 'schools', 'urban agriculture', 'gardens']",Dataset,605.0,7.797420690565354e-05
+Permitting,"Zoning rules for districts. A= Allowed  C=Conditional F = Forbidden
+Please use attached document for sub district ID locations and to join to shape file located here: http://boston.maps.arcgis.com/home/item.html?id=58348dd9d09442ee91ca9d2dcb527ba4",Zoning Clearances,"['hubhacks', 'permits', 'land use', 'zoning']",Dataset,594.0,7.655649405282346e-05
+,"Operation details for summer farmers' market in Boston. Subject to change in future; information listed is accurate as of Spring 2013. All markets have at least one vendor who accepts WIC/Senior FMNP benefits; many, but not all, markets also accept SNAP and EBT/Boston Bounty Bucks benefits.",Summer Farmers' Markets,"['local food', 'fresh food', 'food security', 'food access', 'retail']",Dataset,593.0,7.642761106620255e-05
+,,Boston Open Budget - City Council Districts,[],Map,565.0,7.281888744081694e-05
+Inspectional Services,This is a list of all active retail bakeries in the city.,Retail Bakery,['food'],Dataset,531.0,6.843686589570582e-05
+,,FY16 COB Gen Fund Budget,[],Dataset,521.0,6.714803602949668e-05
+,,Boston Open Budget - Neighborhood Boundaries,[],Map,521.0,6.714803602949668e-05
+,"Where to find fresh, local food in Boston and nearby, including farmers' markets, CSA pickup locations (including seafood CSAs), and the future site of the Boston Public Market. Information subject to change; please contact with updates and corrections.",Local Food Distribution,"['farmers markets', 'food access', 'food initiatives', 'food']",File or Document,515.0,6.637473810977119e-05
+City Services,"Please note: these locations are NOT accurate for 2013's CANshare initiative, and will be updated shortly to reflect participating locations for the upcoming season. (Sept 2013)",Boston CANshare Sites 2012,"['food pantries', 'charity', 'hunger', 'food security', 'food access']",Dataset,492.0,6.341042941749014e-05
+City Services,Locations of all Big Belly trash receptacles in the city,Big Belly Locations,"['hubhacks', 'public works', 'sanitation', 'trash', 'big belly']",Dataset,492.0,6.341042941749014e-05
+Health,"Locations to access fresh, local seafood throughout the city of Boston and environs. Categories include: publicly accessible fishing locations, farmers' markets with fresh day boat fish, and fish CSA distribution points. Seafood retail locations to come! Accurate as of August 2012: please contact with corrections and updates. Source database available on OpenData. PDF.",Fresh Seafood Map,"['csa', 'fishing', 'seafood', 'fish', 'food security']",File or Document,482.0,6.212159955128099e-05
+,,FY16 COB Gen Fund Budget,[],Dataset,478.0,6.160606760479734e-05
+Health,"Institutions and programs offering community-based culinary and nutrition education programming, as of summer 2012. Have an update or see something inaccurate? Please let us know: genevieve.goldleaf@cityofboston.gov",Community Culinary And Nutrition Programs,"['community centers', 'education', 'food access', 'nutrition', 'health']",Dataset,474.0,6.109053565831367e-05
+Public Safety,Number of firearms recovered by BPD,Boston Police Department Firearms Recovery Counts,"['safety', 'crime', 'police', 'bpd', 'firearms']",Dataset,472.0,6.0832769685071845e-05
+,,FY17 Adopted Budget Data,[],Dataset,444.0,5.722404605968623e-05
+,,FY16 COB Gen Fund Budget,[],Dataset,435.0,5.606409918009799e-05
+Health,Winter farmers' market in Boston and surrounding areas. Subject to change in future seasons; times listed were accurate as of December 2012.,Winter Farmers Markets,"['farmers markets', 'food security', 'food access', 'local food', 'fresh food']",Dataset,402.0,5.18109606216078e-05
+Permitting,Data of approved building/construction permits,test,"['construction', 'building', 'permits']",Filtered View,399.0,5.142431166174506e-05
+,A map showing the parcels comprising each of the districts,Main Street Districts,[],External Link,397.0,5.1166545688503225e-05
+,Dropoff points for community supported agriculture (CSA) programs in and near the city of Boston. Information subject to change; please contact with updates.,Community Supported Agriculture (CSA) Pickups,"['urban agriculture', 'farmers markets', 'csas', 'csa', 'food initiatives']",Dataset,387.0,4.9877715822294076e-05
+City Services,"Active User Counts, see Boston About Results scorecard for further details: http://www.cityofboston.gov/bar/scorecard/details.html?contextId=111654375223408&isExternal=_external",Boston Public Library Daily Active User Counts,"['activity', 'users', 'library', 'bpl']",Dataset,378.0,4.871776894270584e-05
+City Services,City Of Boston Department of Neighborhood Development managed city property tax-foreclosed buildings and land potentially suitable for development. Spatial projection WGS 84 long lat (EPSG:4326),DND managed City Property Developable,"['property', 'housing', 'neighborhood', 'development']",Map,368.0,4.742893907649669e-05
+Health,Permits managed by the Boston Public Health Commission,Nail Salon Permits,"['hubhacks', 'spas', 'salons', 'public health', 'bphc']",Dataset,357.0,4.601122622366663e-05
+Human Services,,Children's Feeding Program,"['youth services', 'food', 'children']",Dataset,341.0,4.394909843773199e-05
+,,Boston Open Budget - Capital Project List,[],Dataset,338.0,4.3562449477869245e-05
+City Services,2014 daily page views for CityofBoston.gov,Cityofboston.gov Page Views,"['hubhacks', 'online', 'engagement', 'digital', 'pageviews']",Dataset,331.0,4.266026857152284e-05
+Health,Delivery locations for fish CSA programs near Boston. Accurate as of August 2012.  Inaccurate or incomplete information? Let us know!,Fish CSA Pickup Sites,"['local food', 'fresh food', 'food security', 'csa', 'community supported agriculture']",Dataset,325.0,4.1886970651797354e-05
+,"An excel spreadsheet containing data on the economic, social and housing characteristics of Roxbury from the American Community Survey 2005-2009.","Roxbury neighborhood data: American Community Survey, 2005-2009","['rent', 'mortgage', 'work status', 'employment', 'poverty']",File or Document,311.0,4.008260883910454e-05
+,"Farmers markets featuring fresh, day-boat fish.",Farmers Markets with Fish,"['fish', 'seafood', 'food security', 'food access', 'farmers markets']",Dataset,306.0,3.9438193905999965e-05
+City Services,"The BPL catalog in MARC format(http://www.loc.gov/marc/umb/um01to06.html) zipped file approx 500 mb, full file approx 1.8 Gb",Boston Public Library Catalog,[],External Link,305.0,3.9309310919379055e-05
+,Publicly-accessible fishing locations in and around the city of Boston. Accurate as of August 2012. Please contact with updates or corrections.,Public Access Fishing Locations,"['food security', 'food access', 'fresh food', 'local food', 'recreation']",Dataset,302.0,3.8922661959516306e-05
+City Services,Department of Neighborhood Development managed city owned property. Spatial projection WGS 84 long lat (EPSG:4326),DND Managed City Property Inventory All,"['property', 'housing', 'neighborhood', 'development']",Map,301.0,3.879377897289539e-05
+,"children, camps, youth services",Day Camps,[],Dataset,290.0,3.737606612006533e-05
+Public Property,This is a list of all City-run seasonal swimming pools.,Seasonal Swimming Pools,"['facilities', 'health', 'recreation']",Dataset,288.0,3.71183001468235e-05
+,,FY16 COB Gen Fund Budget,[],Dataset,287.0,3.698941716020258e-05
+,,FY16 COB Gen Fund Budget,[],Dataset,285.0,3.6731651186960756e-05
+,,FY16 COB Gen Fund Budget,[],Dataset,268.0,3.45406404144052e-05
+City Services,amount of tons of waste and recycling picked up by the Sanitation department,Monthly Residential Recycling/Waste Tonnage,"['household', 'public works', 'sanitation', 'waste', 'recycling']",Dataset,266.0,3.428287444116337e-05
+,assessment for all property for the year 2014,BRA Owned Parcels 2014,"['2014', 'property', 'taxes', 'assessing', 'assessment']",Filtered View,266.0,3.428287444116337e-05
+,"Daily average CityScore
+See Attachments section below for a data dictionary and list of metric definitions.
+**Please note that CityScore captures a data snapshot once every weekday. Source systems are constantly updating, and these updates can include revisions to existing data that could affect CityScore's calculations. The most recent records are always the most accurate.
+In addition, you may notice null values in the data set, which indicate that CityScore has no data for a given time period. This most often occurs when a particular data source is updated on a different schedule than CityScore's calculations. We are currently working to adjust our process to allow CityScore to capture data every day, including weekends, as well as to retroactively generate values for fields created after the initial CityScore launch in January.**",CityScore Summary,"['performance management', 'cityscore']",Dataset,257.0,3.3122927561575134e-05
+,The Mayor's 2012 State of the City address,State Of The City Address 2012 - Mayor Thomas Menino,"['speeches', 'press release', ""mayor's office""]",File or Document,245.0,3.157633172212416e-05
+,,Boston Open Budget - Capital Budget,[],Dataset,219.0,2.822537406998037e-05
+,,Capital Projects - Adopted,[],Dataset,199.0,2.564771433756207e-05
+,,Capital Phase,[],Dataset,185.0,2.384335252486926e-05
+,,Boston Capital Budget Data,[],Dataset,179.0,2.3070054605143772e-05
+City Services,Top 10 pages in the cityofboston.gov domain for 2014,Cityofboston.gov Top 10 pages,"['hubhacks', 'engagement', 'website', 'online']",Dataset,177.0,2.2812288631901943e-05
+,,Capital Phase,[],Dataset,172.0,2.2167873698797368e-05
+,,Capital Projects - Adopted,[],Dataset,164.0,2.1136809805830048e-05
+,,Capital Projects - Adopted,[],Dataset,151.0,1.9461330979758153e-05
+,"Summer farmers markets with fresh, dayboat fish . Each market accepts SNAP/WIC benefits. Subject to change in future seasons; information listed was accurate as of spring 2013. Please contact us with any corrections: genevieve.goldleaf@cityofboston.gov",Farmers Markets With Fish,"['food', 'local food', 'fresh food', 'food initiatives', 'farmers markets']",Dataset,148.0,1.9074682019895408e-05
+,Boston City Seal,Boston City Seal (Clear),[],File or Document,144.0,1.855915007341175e-05
+,,Report For Open Budget 102315,[],Dataset,143.0,1.8430267086790833e-05
+,,Property Assessment 2017,[],Dataset,140.0,1.804361812692809e-05
+,,Templates,[],Dataset,124.0,1.598149034099345e-05
+,,Capital Phase,[],Dataset,123.0,1.5852607354372534e-05
+,,Boston Open Budget - Project Phase Descriptions,[],Dataset,122.0,1.572372436775162e-05
+City Services,Constituent requests for city services,Requests for Pothole Repair,"[""mayor's office"", 'service requests', '311']",Filtered View,93.0,1.1986117755745088e-05
+,,Report For Open Budget 102315,[],Dataset,91.0,1.1728351782503259e-05
+,,Boston Phases,[],Dataset,90.0,1.1599468795882342e-05
+City Services,Constituent requests for city services,311 Service Requests,"[""mayor's office"", 'service requests', '311']",Filtered View,45.0,5.799734397941171e-06
