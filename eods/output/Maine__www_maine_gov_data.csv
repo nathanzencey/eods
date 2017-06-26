@@ -1,0 +1,42 @@
+category,descrip,name,topics,type,views
+Recreation,,Maine Lighthouses (Map),['lighthouses'],Map,7092.0
+,"Locations of animals killed by hunters data
+The location, species, and date of all animals killed by hunters in the State of Maine from 2010 through 2012.",IFW Kills,[],Dataset,6817.0
+Government,Locations of the Maine Veterans Services Offices,Veterans' Services Offices,[],Map,4672.0
+Finances,"Fiscal year expenses for Fiscal Year To Date 2011 by Agency, Fund and Appropriation",State Expenses 2011,['expenses'],Dataset,2906.0
+Finances,"Fiscal year expenses for Fiscal Year To Date 2010 by Agency, Fund and Appropriation",State Expenses 2010,['expenses'],Dataset,2584.0
+Finances,"Fiscal year expenses for 2004-2009 by Agency, Fund and Appropriation",State-expenses-2004-2009,['expenses'],Dataset,2420.0
+Finances,"Fiscal year revenue for 2004-2009 by Agency, Fund, Appropriation and Revenue Source",State Revenue 2004 2009,['revenue'],Dataset,2011.0
+Finances,"Fiscal year expenses for Fiscal Year To Date 2011 by Agency, Fund and Appropriation",expense view,['expenses'],Filtered View,1178.0
+Government,Data last updated: 06/15/2009,Median Household Income data,"['median household income data', 'income']",Dataset,1077.0
+Finances,"Fiscal year revenue for Fiscal Year To Date 2010 by Agency, Fund, Appropriation and Revenue Source",State Revenue 2010,['revenue'],Dataset,946.0
+Finances,"Fiscal year revenue for Fiscal Year To Date 2011 by Agency, Fund, Appropriation and Revenue Source",State Revenue 2011,['revenue'],Dataset,881.0
+Government,,Lamoine Tax Data,['lamoine maine tax data'],Dataset,829.0
+,"Locations of animals killed by hunters data
+The location, species, and date of all animals killed by hunters in the State of Maine from 2010 through 2012.",Maine Deer Kills IFW - count by year and town,[],Filtered View,793.0
+Finances,"Fiscal year revenue for Fiscal Year To Date 2011 by Agency, Fund, Appropriation and Revenue Source",2011 State Revenue Tree,['revenue'],Chart,562.0
+Statistics,,Maine Population 1960-2010 by Counties,"['counties', 'maine population']",Dataset,491.0
+Statistics,,Maine County Population 2010,"['counties', 'maine population']",Chart,483.0
+Statistics,,Crime by County 2013,"['counties', 'crime']",Dataset,473.0
+Statistics,,Maine Population 1960-2010 by Counties (Map),"['counties', 'maine population']",Map,460.0
+Statistics,,Crime by County 2013 (Map),"['counties', 'crime', 'maine crime map']",Map,429.0
+Statistics,,Maine Population 2010,"['counties', 'maine population']",Map,427.0
+Recreation,,Maine Railroads (Map),['railroads'],Map,391.0
+,,maptest,[],Map,376.0
+Government,(1/28/2014),Maine Town Boundaries (METWP24) and Geocodes Tables,['maine town boundaries'],Map,351.0
+Government,Data last updated: 06/15/2009,Income,"['income', 'median household income data']",Filtered View,285.0
+Statistics,,Maine Population 2000 & 2010 by Counties,"['counties', 'maine population']",Chart,273.0
+,,Maine-zip-codes,[],Dataset,270.0
+Recreation,,Wildlife Management Districts 2012 (Map),['wildlife management districts'],Map,205.0
+,Locations of natural gas pipelines,Natural Gas Pipelines,[],Map,189.0
+Government,Map with different locations for Veterans.,Filters,[],Map,169.0
+Statistics,,"Crime by County, all Index Crimes per 1,000 for 2013","['counties', 'crime', 'maine crime map']",Map,165.0
+,"Locations of animals killed by hunters data
+The location, species, and date of all animals killed by hunters in the State of Maine from 2010 through 2012.",Animals killed by hunters 2010-2012,[],Chart,164.0
+Government,Map with different locations for Veterans.,TestMap,[],Form,152.0
+Government,Locations of the Maine Veterans Services Offices,Veterans Services Offices,[],Dataset,139.0
+Government,Map with different locations for Veterans.,BVS Map,[],Map,123.0
+Government,Map with different locations for Veterans.,map no table,[],Map,92.0
+Government,Map with different locations for Veterans.,BVS Map,[],Dataset,88.0
+Statistics,,2010 Maine.gov Population by County,"['counties', 'maine population']",Filtered View,56.0
+Statistics,,Maine.gov Population by County 2010,"['counties', 'maine population']",Chart,46.0

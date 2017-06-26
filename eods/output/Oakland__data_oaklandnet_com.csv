@@ -1,0 +1,665 @@
+category,descrip,name,topics,type,views,views_norm
+,"This dataset includes all itemized monetary contributions ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""A"" Monetary Contributions from 2011 to the present. The data is current as of the last modified date on this dataset. See the data key for column definitions: https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Essentials,"['schedule a', '460', 'form', 'contributions', 'monetary']",Filtered View,17370.0,1.0
+Financial,,City of Oakland Proposed Policy Budget FY2013-15,['budget'],Dataset,15691.0,0.9033390903857225
+Public Services,,Wildfire Prevention Assessment District Boundries,"['fire', 'wpad']",Map,12936.0,0.7447322970639033
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",CrimeWatch Maps Past 90-Days,[],Dataset,11954.0,0.6881980426021876
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the Oakland Call Center in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of date of upload. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Oakland Call Center received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that the City is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.
+BEAT = Police Beat of the REQADDRESS (see http://mapgis.oaklandnet.com/PoliceDistricts/ for a map of police beats)",Service requests received by the Oakland Call Center,"['transporation', 'maintenance', 'illegal dumping', 'pot holes', 'service requests']",Dataset,11940.0,0.687392055267703
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",90daybutters,[],Map,11861.0,0.6828439838802534
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of January 5, 2015. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.",Dumping heat map,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Map,10639.0,0.6124928036845135
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",90-Day Crime Map,[],Map,10481.0,0.6033966609096143
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",90 day crime map,[],Map,8442.0,0.48601036269430054
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit 
+REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits.
+DATETIMEINIT = The Date/Time that the request was initiated.
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes:
+?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only.
+Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline
+?TE? means ?Traffic Engineering?
+REQCATEGORY = Request Category
+REQADDRESS = Request Address
+An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline.
+STATUS = The status as of 1/30/13. 
+Pending: Request received for review
+OPEN: Request assigned to work unit 
+WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done)
+CLOSED: Request is resolved
+REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO)
+UNFUNDED: Request is for an service that Public Works is not funded to provide
+CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request
+DATETIMECLOSED = The Date/Time that the request was closed
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude.
+REFERREDTO = If the status is Referred, this shows who it was referred to.",Service requests received by Public Works,"['illegal dumping', 'pot holes', 'service requests', 'public works']",Dataset,7554.0,0.43488773747841103
+Environmental,,trees,[],Filtered View,7087.0,0.4080023028209557
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Download Oakland Crime Heatmap,[],Map,7073.0,0.40719631548647095
+Environmental,,Oakland Street Trees,[],Dataset,6340.0,0.3649971214738054
+Financial,,Budget stacked column,['budget'],Filtered View,5762.0,0.33172135866436386
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",90day crime 0923 22x,[],Filtered View,5596.0,0.3221646516983305
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Jan-March 13 Homicide & Assault with Firearm on Person,[],Filtered View,5129.0,0.29527921704087506
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of October 6, 2015. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.",potholereports,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,4665.0,0.26856649395509496
+,FY 2011-12 Actual Expenditure,Wildfire Prevention Assessment District Expenditures Pie Chart,[],Chart,4448.0,0.25607369027058147
+Public Safety,All license plate reader (ALPR),All license plate reader data (ALPR) 3/19/2014-3/31/2014,"['police department', 'license plate']",Dataset,4403.0,0.2534830166954519
+Public Services,FY 2012-13 Budget by Programs,Wildfire Prevention Assessment District Engineering Budget Pie Chart,"['budget', 'wpad']",Chart,4181.0,0.24070236039147958
+Environmental,Opportunities abound for volunteers to help clean and beautify public spaces throughout the city.,Public Works Volunteer Calendar,[],Calendar,4033.0,0.232181922855498
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of January 5, 2015. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.",Illegal Dumping - Closed,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,4016.0,0.23120322394933793
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",crime_heatmap,[],Map,3907.0,0.2249280368451353
+Environmental,Opportunities abound for volunteers to help clean and beautify public spaces throughout the city.,Public Works Volunteer Opportunities,[],Dataset,3764.0,0.21669545192861256
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",90-Day Crime Map,[],Map,3079.0,0.17725964306275188
+Public Services,Public Works Drainage Inlets,Drainage Inlets,"['drainage inlets', 'inlet', 'drain']",Dataset,3043.0,0.17518710420264824
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",90-Day Crime MAP,[],Map,3021.0,0.17392055267702936
+Financial,,City of Oakland Adopted Policy Budget FY13-15,"['budget', 'financial']",Dataset,2994.0,0.17236614853195165
+Public Safety,,Crimewatch Data 2013,['crime'],Dataset,2913.0,0.1677029360967185
+,"This dataset includes all itemized monetary contributions ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""A"" Monetary Contributions from 2011 to the present. The data is current as of the last modified date on this dataset. See the data key for column definitions: https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule A - Monetary Contributions,"['schedule a', '460', 'form', 'fppc', 'contributions']",Dataset,2818.0,0.16223373632700058
+,This dataset includes all summary totals e-filed on Fair Political Practices Commission (FPPC) Form 460 Summary Page from 2011 to the present. The data is current as of the last modified date on this dataset. See the data key for column definitions: https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76,Campaign Finance - FPPC Form 460 - Summary Totals,"['460', 'form', 'fppc', 'contributions', 'monetary']",Dataset,2807.0,0.16160046056419114
+Financial,,Proposed Budget for Fiscal Years 2015-2017,['budget'],Dataset,2775.0,0.15975820379965458
+Public Safety,,Crimewatch Data 2012,[],Dataset,2484.0,0.14300518134715026
+Financial,"According to the records of the City Clerk (the City's local filing officer), the Oakland Public Ethics Commission has identified the campaign finance disclosure filers in this table as non-responsive (NR) filers.  NR filers are those that have not responded to two or more written notices and one or more verbal notices regarding past-due campaign finance reporting.  Please note that Public Ethics Commission records are subject to change and the table below may not include all NR filers or reflect recent activity.  The NR filers are encouraged to contact the Commission because continued failure to file may result in an enforcement action.  Posted NR filers are removed from the list after filing their past-due campaign statement(s) or five years have elapsed since the applicable filing deadline.",Campaign Finance - Filers with Delinquent Campaign Filings,"['non-filers', 'campaign finance', 'pec', 'public ethics commission', 'fppc']",Dataset,2461.0,0.1416810592976396
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of October 6, 2015. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.",potholes,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Map,2273.0,0.13085780080598733
+Financial,,Police Department Spending,['budget'],Filtered View,1994.0,0.11479562464018422
+Financial,,All police-related budget data,['budget'],Filtered View,1887.0,0.10863557858376512
+Public Safety,,t1,['crime'],Filtered View,1807.0,0.10402993667242372
+,"This dataset includes all itemized payments made ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""E"" Payments Made from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule E - Payments Made,"['460', 'form', 'fppc', 'expenditures', 'payments']",Dataset,1669.0,0.09608520437535982
+,"This dataset includes all itemized accrued expenses ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""F"" Accrued Expenses (Unpaid Bills) from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule F - Accrued Expenses (Unpaid Bills),"['460', 'form', 'fppc', 'bills', 'unpaid']",Dataset,1645.0,0.0947035118019574
+Financial,,single page view EXPENSES,['budget'],Filtered View,1623.0,0.09343696027633852
+Financial,,Five-Year Financial Forecast 2016-2020,"['financial', 'forecast', 'five-year', 'survey', 'finance']",Dataset,1602.0,0.0922279792746114
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Vandalism Map Past 90-Days,[],Filtered View,1533.0,0.08825561312607945
+Financial,,Budget Data For Public Adopted FY2014-15 Midcycle Budget,"['midcycle budget', 'finance', 'budget']",Dataset,1524.0,0.08773747841105355
+,,Mayor Jean Quan Calendar January 2011 to October 2013,"['mayor jean quan', 'calendar']",Dataset,1483.0,0.08537708693149107
+Public Safety,"All License Plate Reader Data (ALPR) September 23, 2012 - October 20, 2012","All License Plate Reader Data (ALPR) September 23, 2012 - October 20, 2012","['police department', 'license plate']",Dataset,1376.0,0.07921704087507196
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Crimes in Police Beat Past 90-Days,[],Chart,1369.0,0.07881404720782959
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Felony Assaults and Homicides Heatmap,[],Map,1369.0,0.07881404720782959
+Public Services,crime statistics,PRR #10437,['crime statistics'],Dataset,1357.0,0.07812320092112839
+Public Safety,,Coolidge,[],Filtered View,1339.0,0.07708693149107657
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 8/26/2012-9/19/2012,"['police department', 'license plate']",Dataset,1324.0,0.07622337363270006
+Public Safety,All license plate reader data ALPR,All license plate reader data (ALPR)  4/1/14 thru 5/31/14,"['police department', 'license plate']",Dataset,1313.0,0.07559009786989061
+Financial,PRR 9545,PRR 9545 - Street Sweeping 2013 - 2015 05.08.2015,['prr 9545'],Dataset,1312.0,0.07553252734599884
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 8/6/2012-8/12/2012,"['police department', 'license plate']",Dataset,1303.0,0.07501439263097294
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of April 11, 2016. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.
+BEAT = Police Beat of the REQADDRESS (see http://mapgis.oaklandnet.com/PoliceDistricts/ for a map of police beats)",illegal dumping,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,1273.0,0.07328727691421992
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit 
+REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits.
+DATETIMEINIT = The Date/Time that the request was initiated.
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes:
+?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only.
+Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline
+?TE? means ?Traffic Engineering?
+REQCATEGORY = Request Category
+REQADDRESS = Request Address
+An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline.
+STATUS = The status as of 1/30/13. 
+Pending: Request received for review
+OPEN: Request assigned to work unit 
+WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done)
+CLOSED: Request is resolved
+REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO)
+UNFUNDED: Request is for an service that Public Works is not funded to provide
+CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request
+DATETIMECLOSED = The Date/Time that the request was closed
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude.
+REFERREDTO = If the status is Referred, this shows who it was referred to.",Illegal Dumpings in December 2012,"['illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,1242.0,0.07150259067357513
+Public Services,Shotspotter Data 11288,Shotspotter Data 1-1-13 To 12-31-14,"['shot spotter', 'shotspotter']",Dataset,1227.0,0.07063903281519862
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Rockridge,[],Filtered View,1199.0,0.06902705814622913
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR)  12-23-2010 thru 01-19-2011,"['police department', 'license plate']",Dataset,1195.0,0.06879677605066206
+Financial,This dataset compares the 2014-2015 FY Midcycle budget and the proposed 2015-2017 budget.,FY14-15 Midcycle to FY15-17 Proposed Budget Comparison,"['budget', 'proposed']",Dataset,1172.0,0.0674726540011514
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 3/1/2013-4/1/2013,"['police department', 'license plate']",Dataset,1172.0,0.0674726540011514
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 12/19/2013-1/31/2014,"['police department', 'license plate']",Dataset,1171.0,0.06741508347725965
+,,Oakland Website Analytics Search Term Overview 2012,['website'],Dataset,1166.0,0.06712723085780081
+,"Illustrates the City's Zoning Districts. Includes minor changes made effective on November 3, 2011, which includes a new Chinatown overlay zone (CH). Ordinance 13090.",Zoning,"['zoning', 'land use', 'planning']",Map,1163.0,0.0669545192861255
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",heat map,[],Map,1154.0,0.0664363845710996
+Infrastructure,,Traffic Signals,[],Dataset,1153.0,0.06637881404720783
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",crime-22y,[],Filtered View,1151.0,0.06626367299942429
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 10/20/2012-11/20/2012,"['police department', 'license plate']",Dataset,1142.0,0.06574553828439839
+,"This dataset includes all itemized independent expenditures ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 465 Part 3 Independent Expenditures Made from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 465 - Supplemental Independent Expenditure Report - Part 3 - Independent Expenditures Made,"['465', 'form', 'fppc', 'expenditures', 'independent']",Dataset,1074.0,0.0618307426597582
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 11/20/2012-12/31/2012,"['police department', 'license plate']",Dataset,1068.0,0.0614853195164076
+Public Services,,Map of Boating Centers,[],Map,1056.0,0.06079447322970639
+Public Services,PRR 11288 Calls for Service,1 Jan - 30 June 2014 Calls For Service,"['computer automated dispatch', 'cad', 'calls for service']",Dataset,1008.0,0.058031088082901555
+Public Safety,All license plate reader data ALPR,All license plate reader data (ALPR) 04/01/2014 thru 05/31/2014,"['police department', 'license plate']",Dataset,1006.0,0.05791594703511802
+Public Services,,Parks and Recreation Facilities,[],Dataset,1000.0,0.057570523891767415
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",90daycrime-22x,[],Filtered View,993.0,0.057167530224525046
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 7/6/2011-12/19/2011,"['police department', 'license plate']",Dataset,988.0,0.05687967760506621
+Public Services,PRR 11288 Calls for Service,1 July - 31 Dec 2014 Calls For Service,"['computer automated dispatch', 'cad', 'calls for service']",Dataset,988.0,0.05687967760506621
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",stolenVehicle,[],Filtered View,977.0,0.056246401842256766
+,Alameda County US Census Results 2010,Alameda County Census Tract Results 2010,['census'],Map,975.0,0.05613126079447323
+Public Services,PRR 11288 Calls for Service,1 Jan - 30 June 2015 Calls For Service,"['computer aided dispatch', 'cad', 'calls for service']",Dataset,970.0,0.055843408175014396
+,,Oakland Website Analytics Page Visits 2012,['website'],Dataset,967.0,0.05567069660333909
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 5/13/2012-7/3/2012,"['police department', 'license plate']",Dataset,964.0,0.05549798503166379
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",13z crime in the last 90 days,[],Filtered View,947.0,0.05451928612550374
+Public Services,PRR 11288 Calls for Service,1 July - 31 Dec 2013 Calls For Service,"['computer aided dispatch', 'cad', 'calls for service']",Dataset,934.0,0.05377086931491076
+Public Services,Crime Statistics,Jan 2014 To May 2015,"['stop reports data', 'crime statistics']",Dataset,898.0,0.05169833045480714
+Public Safety,,Crime Data 2015,['crime'],Dataset,884.0,0.0508923431203224
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",bridge,[],Map,883.0,0.05083477259643063
+Public Services,PRR 11288 Calls for Service,1 July - 15 Oct 2015 Calls For Service,['calls for service. cad. computer automated dispatch'],Dataset,882.0,0.05077720207253886
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",stolenVehicle,[],Map,881.0,0.050719631548647094
+Public Services,PRR 11288 Calls for Service,1 Jan - 30 June 2013 Calls For Service,"['computer aided dispatch', 'cad', 'calls for service']",Dataset,868.0,0.04997121473805412
+Public Services,PRR 11675 stop data,Stop Data April 2013 To Sept. 2015,['stop data'],Dataset,847.0,0.048762233736327
+Public Services,"All Oakland Parks and Recreation Facilities, includes Community Gardens, Rental Facilities, Cultural Arts Facilities, Pools, ADA Inclusion Center, Athletic Fields, Tennis Courts, Boating, Discovery Centers, Dog Play Areas, Golf Courses, City Stables, Parks, Recreation Centers and Rotary Nature Center",Map of Parks and Recreation Facilities,[],Map,834.0,0.048013816925734025
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",gen0923,[],Filtered View,814.0,0.04686240644789868
+Property,Compiled by the Community & Economic Development Department in 2002,Oakland Neighborhoods,[],Map,812.0,0.04674726540011514
+,,Oakland Analytics Landing Pages 2012,['website'],Dataset,807.0,0.0464594127806563
+Infrastructure,"These streets have been resurfaced within the last five years. Cutting trenches in streets leads to early deterioration.  To help preserve newly resurfaced streets, Oakland requires any entity that cuts into streets that are on the Five-Year Moratorium to restore the streets per City standards and requirements.",5-Yr Moratorium for City Streets,['streets'],Dataset,802.0,0.046171560161197465
+Financial,,Orgs,['budget'],Filtered View,801.0,0.0461139896373057
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",22xcrime,[],Filtered View,800.0,0.04605641911341393
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",2107 39th Ave Oakland,[],Map,796.0,0.045826137017846866
+Public Services,PRR 10628 crime statistics,April 2013 To Dec 2013,"['prr 10628', 'stop reports data']",Dataset,790.0,0.04548071387449626
+Financial,Fiscal Year 2015-2017 Publicly Adopted Budget,Budget Data For Public Adopted FY2015-17 Biennial,"['fy', 'budget']",Dataset,772.0,0.044444444444444446
+Financial,PRR 9545,Oakland Street Cleaning citations,['prr 9545'],Map,767.0,0.04415659182498561
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",oaklahoma 90days crime map,[],Map,750.0,0.04317789291882556
+,"Maps showing boundaries of zoning classifications in Oakland.
+To obtain the latest information in the area(s) of your interest, or to confirm the zoning, please contact the Zoning Information Hotline Counter at 510-238-3911. For GIS questions, Micaela Pronio, Graphic Delineator, mpronio@oaklandnet.com","City-wide Zoning Map, current version & v.2008 Eff20081218",['zoning'],Map,723.0,0.041623488773747844
+Public Safety,,Problem Solving Officer Directory,[],Dataset,720.0,0.04145077720207254
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",22x,[],Map,712.0,0.0409902130109384
+Property,,Alameda County Parcel Boundaries,[],Map,707.0,0.040702360391479564
+,,Oakland Community Police Beats,[],Map,698.0,0.040184225676453654
+Education,,Oakland Unified Schools,[],Dataset,695.0,0.04001151410477835
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Feb 2013 Shootings on People,[],Map,679.0,0.03909038572251008
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",90crime0923,[],Filtered View,672.0,0.0386873920552677
+,,City of Oakland Public Art Collection,['art'],Dataset,671.0,0.03862982153137594
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Coolidge 2014,[],Filtered View,660.0,0.037996545768566495
+Public Services,,Map of Community Gardens,[],Map,659.0,0.037938975244674725
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",sorted90day22x,[],Filtered View,640.0,0.03684513529073115
+,City Administrator Coliseum Tickets,2014 Coliseum Event Ticket Distribution List,[],Dataset,636.0,0.036614853195164075
+Public Services,,Map of Parks,[],Map,634.0,0.03649971214738054
+Public Safety,,Prostitution,['crime'],Filtered View,617.0,0.03552101324122049
+Public Services,,Map of Dog Play Areas,[],Map,615.0,0.03540587219343696
+City Government,,Oakland Workforce Demographics As Of 12-31-2015,"['workforce demographics', 'city employees']",Dataset,607.0,0.03494530800230282
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",home,[],Map,592.0,0.03408175014392631
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Near work,[],Map,590.0,0.033966609096142776
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Near work,[],Map,578.0,0.03327576280944156
+Public Services,PRR 11288 Shotspotter Data,Shotspotter Data 9-16-15 To 10-6-15,"['shot spotter data', 'shotspotter']",Dataset,561.0,0.03229706390328152
+Public Services,,Map of Recreation Centers,[],Map,557.0,0.03206678180771445
+Public Services,,Map of Public Pools,[],Map,548.0,0.03154864709268854
+Education,,Map of Oakland Public Schools,[],Map,544.0,0.03131836499712148
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of date of upload. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.
+BEAT = Police Beat of the REQADDRESS (see http://mapgis.oaklandnet.com/PoliceDistricts/ for a map of police beats)",13Y potholes July 1-aug 10,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,540.0,0.031088082901554404
+,The name of each officer and/or staff member of the City of Oakland with whom a lobbyist made a contact. Contacts of public officials are disclosed by lobbyists registered with the Public Ethics Commission on a quarterly basis in compliance with the registered Lobbyist Act. This dataset is updated weekly.,2013 Lobbyist Activity - Contacts of Public Officials and City Staff,"['ethics', 'lobbyist', 'transparency']",Dataset,525.0,0.030224525043177894
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Autotheft,[],Filtered View,525.0,0.030224525043177894
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Petty Theft in 13z,[],Filtered View,515.0,0.029648819804260217
+Public Services,PRR 16824,Jun 2014 - May 2015,['parking tickets'],Dataset,511.0,0.029418537708693147
+Public Services,,Map of Rental Facilities,[],Map,506.0,0.02913068508923431
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",vehicletheft,[],Filtered View,505.0,0.029073114565342544
+Economic Development,Building Footprints created from Aerial Imagery 2002-2003,Building Footprints,['buildings'],Map,504.0,0.029015544041450778
+,"This dataset includes all itemized contributions of $100 or more e-filed on Fair Political Practices Commission (FPPC) Form 496 ""Part 3"" Contributions of $100 or More Received from 2011 to the present. The data is current as of the last modified date on this dataset. 
+See the data key for column definitions: https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 496 - Late Independent Expenditure Report - Part 3 - Contributions of $100 or More Received,"['496', 'form', 'fppc', 'contributions', 'monetary']",Dataset,497.0,0.028612550374208404
+Public Services,,Map of Cultural Arts Facilities,[],Map,493.0,0.028382268278641334
+Public Services,PRR 11288 Shotspotter Data,Shotspotter Data 8-16-15 To 9-15-15,"['shot spotter data', 'shotspotter']",Dataset,492.0,0.028324697754749568
+Public Safety,,Fire Station Locations,[],Dataset,492.0,0.028324697754749568
+Public Services,,Map of Golf Courses,[],Map,482.0,0.027748992515831895
+Public Services,PRR 16824,Jun 2016 - 15 Aug 2016,['parking tickets'],Dataset,481.0,0.027691421991940128
+Public Safety,,NCPC Meeting Roster,[],Dataset,481.0,0.027691421991940128
+Infrastructure,These are the streets on the current paving contracts.,Current Paving Contracts,['streets'],Dataset,480.0,0.027633851468048358
+Public Safety,,Map of Fire Stations,[],Map,473.0,0.027230857800805988
+,"This dataset includes all itemized expenditures supporting/opposing other candidates, measures and committees ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""D"" Expenditures Supporting/Opposing Other Candidates, Measures and Committees from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76","Campaign Finance - FPPC Form 460 - Schedule D - Summary of Expenditures Supporting/Opposing Other Candidates, Measures and Committees","['committees', 'measures', 'candidates', 'oppose', 'support']",Dataset,472.0,0.02717328727691422
+,"This dataset includes all itemized Contributions (Including Loans, Forgiveness of Loans, and Loan Guarantees) and Expenditures Made ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 461 ""Part 5"" Contributions (Including Loans, Forgiveness of Loans, and Loan Guarantees) and Expenditures Made from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76","Campaign Finance - FPPC Form 461 - Major Donor and Independent Expenditure Committee Statement - Part 5 - Contributions (Including Loans, Forgiveness of Loans, and Loan Guarantees) and Expenditures Made","['461', 'form', 'fppc', 'committee', 'expenditure']",Dataset,472.0,0.02717328727691422
+Property,,City of Oakland City Limits,[],Map,464.0,0.02671272308578008
+,"This dataset includes all itemized loans received ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""B1"" Loans Received from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule B1 - Loans Received,"['460', 'form', 'fppc', 'received', 'loans']",Dataset,458.0,0.026367299942429475
+,"This dataset includes all itemized payments made by an agent or independent contractor ($500 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""G"" Payments Made by an Agent or Independent Contractor from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule G - Payments Made by an Agent or Independent Contractor,"['460', 'form', 'fppc', 'contractor', 'independent']",Dataset,450.0,0.025906735751295335
+Public Services,PRR 16824,Jun 2015 - May 2016,['parking citations'],Dataset,449.0,0.02584916522740357
+Financial,,Funding Sources,['budget'],Filtered View,447.0,0.025734024179620035
+Education,,Head Start Locations,[],Dataset,447.0,0.025734024179620035
+Public Services,,Map of Tennis Courts,[],Map,445.0,0.0256188831318365
+,"Illustrates the City's General Plan Land Use Classifications. Includes General Plan Corrections, effective on March 2, 2011 (Resolution 83244)",General Plan Land Use,"['general plan', 'land use', 'planning']",Map,444.0,0.025561312607944732
+Public Safety,,Crime Data 2014,['crime'],Filtered View,439.0,0.025273459988485895
+,"This dataset includes all itemized late contributions (cumulative $1,000 or more) e-filed on Fair Political Practices Commission (FPPC) Form 497 Late Contribution Report from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 497 - Late Contribution Report - Late Contributions Made,"['non-monetary', 'contribution', 'monetary', 'late', '497']",Dataset,424.0,0.024409902130109382
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",PoliceBeat23X,[],Map,419.0,0.024122049510650546
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Crime in 22X,[],Filtered View,418.0,0.02406447898675878
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of date of upload. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.
+BEAT = Police Beat of the REQADDRESS (see http://mapgis.oaklandnet.com/PoliceDistricts/ for a map of police beats)",Oak Illegal Dumping,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,410.0,0.02360391479562464
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",PoliceBeat 26x,[],Filtered View,409.0,0.023546344271732873
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of date of upload. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.
+BEAT = Police Beat of the REQADDRESS (see http://mapgis.oaklandnet.com/PoliceDistricts/ for a map of police beats)",Oak Illegal Dumping Map,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Map,402.0,0.0231433506044905
+,,Senior Centers,[],Dataset,394.0,0.022682786413356363
+Public Services,,Oakland Public Library Branch Locations And Hours,[],Dataset,393.0,0.022625215889464593
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",6528 Outlook Avenue Oakland CA,[],Map,376.0,0.021646516983304546
+Financial,,Revenue/Expense Sum,['budget'],Filtered View,371.0,0.02135866436384571
+Public Safety,,01/01/2013-05/01/2013 Beat 12Y DESCRIPTION CONTAINS ROBB OR BURG,['crime'],Filtered View,370.0,0.021301093839953943
+Environmental,Alameda County Certified Green Businesses,Oakland Certified Green Businesses,[],Dataset,369.0,0.021243523316062177
+Economic Development,"List of all currently permitted mobile food vending group sites in Oakland. For questions and concerns, call Nancy Marcus at (510) 238-3294.",Mobile Food Vending Group Sites,['food trucks'],Map,366.0,0.021070811744386873
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",Homicide Assault on Person with Firearm Jan-Mar 13,[],Map,366.0,0.021070811744386873
+Public Services,The name of each officer and/or staff member of the City of Oakland with whom a lobbyist made a contact. Contacts of public officials are disclosed by lobbyists registered with the Public Ethics Commission on a quarterly basis in compliance with the registered Lobbyist Act. This dataset is updated weekly.,2014 Lobbyist Activity,"['lobbyist', 'open government', 'ethics']",Dataset,365.0,0.021013241220495107
+,2010 Demographic Profile Data,2010 Profile of General Population by Sex and Age Groups,['census'],Dataset,361.0,0.020782959124928037
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",CrimeBeat 20X,[],Filtered View,355.0,0.020437535981577434
+Property,,City Facilities,[],Map,348.0,0.02003454231433506
+Public Safety,"We have mapped some of the larger NNO parties here. To find out about more parties happening in your neighborhood, call Felicia Verdin 238-3128 or Brenda Ivey 238-3091",Map of 2013 National Night Out Parties,[],Map,340.0,0.01957397812320092
+Education,,OAKLAND SCHOOLS,[],Map,335.0,0.019286125503742084
+,,Street Trees,[],Map,329.0,0.01894070236039148
+Public Safety,,01/01/2013-05/01/2013 Beat 12X DESCRIPTION CONTAINS ROBB OR BURG,['crime'],Filtered View,327.0,0.018825561312607944
+,,Map of Public Art Collection,['art'],Map,325.0,0.01871042026482441
+,"This dataset includes all itemized non-monetary contributions ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""C"" Non-Monetary Contributions from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule C - Non-Monetary Contributions,"['460', 'form', 'fppc', 'contributions', 'non-monetary']",Dataset,322.0,0.018537708693149108
+Public Services,PRR 11288 Shotspotter Data,Shotspotter Data 8-1-15 To 8-31-15,"['shot spotter data', 'shotspotter']",Dataset,321.0,0.01848013816925734
+Public Safety,All license plate reader data (ALPR),All license plate reader data (ALPR) 9/15/2012,"['police department', 'license plate']",Dataset,320.0,0.018422567645365574
+Economic Development,,Oakland's Business Improvement Districts as of 2010,[],Map,316.0,0.018192285549798504
+Financial,,Debt Service Expense Details,['budget'],Filtered View,315.0,0.018134715025906734
+Property,,Alameda County Census Blocks 2010,[],Map,296.0,0.017040875071963155
+Public Services,,Boards & Commissions,[],Dataset,286.0,0.01646516983304548
+Public Safety,,01/01/2013-05/01/2013 BeatT12Y CRIMETYPE is robbery OR residential burglary,['crime'],Filtered View,286.0,0.01646516983304548
+Public Services,,Map of Oakland Public Libraries,[],Map,285.0,0.016407599309153715
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",01/01/2014-05/01/2014 Beatt 12X DESCRIPTION CONTAINS ROBB OR BURG,['crime'],Filtered View,284.0,0.016350028785261945
+,2010 Demographic Profile Data,2010 Profile of General Population by Sex and Age Groups,['census'],Chart,279.0,0.01606217616580311
+,,Alameda County Census Tract Results 2010,[],Map,277.0,0.015947035118019575
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of October 6, 2015. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.",IllegalDumping(Enforcement Potential),"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,276.0,0.015889464594127805
+,"This dataset includes all itemized late independent expenditures ($1000 or more) e-filed on Fair Political Practices Commission (FPPC) Form 496 Late Independent Expenditures Report from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 496 - Late Independent Expenditure Report - Independent Expenditures Made,"['expenditure', 'independent', 'late', '496', 'form']",Dataset,269.0,0.015486470926885435
+Economic Development,Food Trucks Permitted Through O.M.C. Chapter 8.09 Vehicular Food Vending (on private property only),Vehicular Food Vending,['food trucks'],Map,265.0,0.015256188831318365
+Public Safety,,01/01/2013-05/01/2013 BeatT12X CRIMETYPE is robbery OR residential burglary,['crime'],Filtered View,258.0,0.014853195164075994
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",01/01/2014-05/01/2014 Beatt 12Y DESCRIPTION CONTAINS ROBB OR BURG,['crime'],Filtered View,256.0,0.014738054116292459
+,,Oakland Police Districts and Beats,[],Map,253.0,0.014565342544617155
+Infrastructure,Utility meter locations with addresses,EBMUD Meters,[],Map,251.0,0.01445020149683362
+Public Safety,,Oakland Police Districts,[],Map,251.0,0.01445020149683362
+Financial,,General Fund Account Categories,['budget'],Filtered View,250.0,0.014392630972941854
+,,2013 Ticket Distribution List,[],Dataset,249.0,0.014335060449050087
+,,2012 Ticket Distribution List,[],Dataset,248.0,0.014277489925158319
+Education,,Map of Head Start Locations,[],Map,248.0,0.014277489925158319
+Financial,,Expenses by Category,['budget'],Filtered View,245.0,0.014104778353483017
+,PRR 11288 Shotspotter Data,Shotspotter Data 7-15-15 To 8-1-15,"['shot spotter data', 'shotspotter']",Dataset,241.0,0.013874496257915947
+Economic Development,"List of all currently permitted mobile food vending group sites in Oakland. For questions and concerns, call Nancy Marcus at (510) 238-3294.",Map of Mobile Food Vending Group Sites,[],Map,235.0,0.013529073114565342
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",01/01/2014-05/01/2014 Beat 12Y CRIMETYPE is robbery OR residential burglary,['crime'],Filtered View,235.0,0.013529073114565342
+,,Map of Oakland Senior Centers,[],Map,232.0,0.01335636154289004
+,"The Census Bureau conducts nearly one hundred surveys and censuses every year. By law, no one is permitted to reveal information from these censuses and surveys that could identify any person, household, or business. The Decennial Census collects data every 10 years about households, income, education, homeownership, and more.",Alameda County US Census Tracts 2010,['census'],Map,232.0,0.01335636154289004
+,,2015 Ticket Distribution List,"[""2015 city administrator's office ticket distribution""]",Dataset,230.0,0.013241220495106506
+Financial,,Various Revenue Sources,['budget'],Filtered View,229.0,0.013183649971214738
+,PRR 10437 calls for service,PRR # 10437,['calls for service'],Dataset,228.0,0.013126079447322971
+Public Safety,"The Oakland Police Department provides crime data to the public through the City of Oakland?s Crime Watch web site. This site presents the data in a geographic format, which allows users of the information to produce maps and/or reports. 
+The file that you are about to electronically download, copy, or otherwise retrieve by other means is a tabular representation of the same data without maps or reporting capabilities. Be advised that the exact address of each crime has been substituted with the block address to protect the privacy of the victim.",01/01/2014-05/01/2014 BeatT12X CRIMETYPE is robbery OR residential burglary,['crime'],Filtered View,225.0,0.012953367875647668
+Environmental,Opportunities abound for volunteers to help clean and beautify public spaces throughout the city.,Volunteer Opportunities on July 29,[],Filtered View,218.0,0.012550374208405296
+Public Services,FY 2012-13 Budget by Programs,Wildfire Prevention Assessment District Engineering Budget,"['budget', 'wpad']",Dataset,214.0,0.012320092112838226
+,,Parks and Medians,[],Map,214.0,0.012320092112838226
+,,2011 Ticket Distribution List,[],Dataset,212.0,0.012204951065054691
+Financial,,Debt Service in General Fund,['budget'],Filtered View,209.0,0.01203223949337939
+Economic Development,,Oakland Public Housing 2014 Geocode,"['pca', 'resilience', 'public housing', 'housing', 'affordable housing']",Map,202.0,0.011629245826137018
+Financial,,Debt Service Expense,['budget'],Filtered View,199.0,0.011456534254461716
+Environmental,,Oakland Centerline of Streams,[],Map,196.0,0.011283822682786413
+Infrastructure,Class 1 Bikeways in Oakland,Bikeways Class1,"['oakland', 'bikeways', 'bike lanes', 'bicycle', 'transportation']",Map,195.0,0.011226252158894647
+Economic Development,,Oakland PDAs,[],Map,194.0,0.011168681635002878
+,,Traffic Signals,[],Map,193.0,0.011111111111111112
+Public Services,Directory of registered lobbyists and their respective clients. This list includes both current and past clients for each lobbyist. Lobbyist clients are disclosed by lobbyists registered with the Public Ethics Commission on a quarterly basis in compliance with the Lobbyist Registration Act. This dataset is updated weekly.,2014 Lobbyist Directory,"['lobbyist', 'open government', 'transparency', 'ethics']",Dataset,193.0,0.011111111111111112
+Environmental,"Census tracts within Oakland California that are in the upper 25th percentile statewide for CalEPA's Cal Enviroscreen 2.0, which compiled a series of socioeconomic and environmental indicators to determine ""environmentally disadvantaged communities"".
+More information and methodology, plus the complete dataset available at http://oehha.ca.gov/ej/ces2.html",CAL EnviroScreen 2.0 75th Percentile.shp,"['resilience', 'pca', 'priority conservation area', 'calepa', 'environmental health']",Map,183.0,0.010535405872193437
+,"This dataset includes all itemized loans made to others ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""H"" Loans Made to Others from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule H - Loans Made to Others,"['460', 'form', 'fppc', 'others', 'loans']",Dataset,182.0,0.01047783534830167
+Environmental,,Oakand Creeks,[],Map,182.0,0.01047783534830167
+Economic Development,"Low access, low income census tracts greater than 1/2 mi from supermarket",Priority LILA  Food Desert.shp,"['resilience', 'pca', 'priority conservation area', 'urban greening', 'food access']",Map,182.0,0.01047783534830167
+,"This dataset includes all itemized guarantors of loans ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""B2"" Loan Guarantors from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule B2 - Loan Guarantors,"['460', 'form', 'fppc', 'guarantors', 'loan']",Dataset,176.0,0.010132412204951065
+Public Safety,,2013 Large National Night Out Parties By Organization,[],Dataset,174.0,0.01001727115716753
+,FY 2011-12 Actual Expenditure,Wildfire Prevention Assessment District Expenditures,[],Dataset,174.0,0.01001727115716753
+Life Enrichment,These are the recommended grant recipients for the 2014-2015 fiscal year. Additionally this dataset contains their funded project information.,FY14-15 Cultural Funding Program Grant Recommendations,[],Dataset,173.0,0.009959700633275764
+,"This dataset includes all itemized Miscellaneous Increases to Cash ($100 or more) e-filed on Fair Political Practices Commission (FPPC) Form 460 Schedule ""I"" Miscellaneous Increases to Cash from 2011 to the present.
+The data is current as of the last modified date on this dataset.
+See the data key for column definitions:  https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76",Campaign Finance - FPPC Form 460 - Schedule I - Miscellaneous Increases to Cash,"['finance', 'campaign', '460', 'form', 'fppc']",Dataset,172.0,0.009902130109383995
+,"The Census Bureau conducts nearly one hundred surveys and censuses every year. By law, no one is permitted to reveal information from these censuses and surveys that could identify any person, household, or business. The Decennial Census collects data every 10 years about households, income, education, homeownership, and more.",Gold Coast Census Tract,[],Map,171.0,0.009844559585492229
+Environmental,,East Bay Regional Parks,[],Map,166.0,0.00955670696603339
+City Government,"The State has required all California cities to publish a catalog of technology systems. This list includes technologies that the State considers to be ""enterprise"" and ""systems of record."" 
+Form more information, please read Senate Bill 272 or the California Public Records Act, section 6270.5.",Oakland SB 272 Enterprise IT Systems Catalog,[],Dataset,162.0,0.00932642487046632
+Environmental,,Urban Corridors Connectors,"['resilience', 'pca', 'priority conservation area', 'urban greening']",Map,156.0,0.008981001727115717
+Public Services,PRR 11288 Shotspotter Data,Pearl Street Shotspotter,"['shot spotter data', 'shotspotter']",Map,156.0,0.008981001727115717
+Public Services,,Community Gardens,[],Map,152.0,0.008750719631548647
+Economic Development,,Oakland Assist Housing 2014 Feb Geocode,"['pca', 'priority conservation area', 'resilience', 'housing', 'affordable housing']",Map,148.0,0.008520437535981577
+Financial,,City Council District 2 Budget 13-14,"['budget', 'financial']",Filtered View,148.0,0.008520437535981577
+Environmental,"Summary: This layer was created to depict industrial land areas present in 1968. The layer is intended to contribute to a larger mapping and modeling effort designed to spatially depict land areas that may be sources of Polychlorinated Biphenyls (PCBs) or mercury in the San Francisco Bay Area. The land areas are termed ?old industrial? due to their presence prior to roughly 1970, the timeframe when PCB production in the U.S. ceased. Old industrial land parcels in Alameda, Contra Costa, San Mateo, Santa Clara and Solano counties are depicted.  Parcels in the datalayer are defined via the most currently available assessor?s parcel data for each county.",Old Indust Land Use.shp,"['resilience', 'pca', 'priority conservation area', 'land use', 'industry']",Map,146.0,0.008405296488198042
+,,Templates,[],Dataset,145.0,0.008347725964306276
+,PRR 10646,2011 -2014 Business Tax Gross Receipts & Accts Opended & Closed,[],File or Document,145.0,0.008347725964306276
+Financial,,Police Investigation Expenses,"['budget', 'financial']",Filtered View,140.0,0.008059873344847437
+Financial,,Economic development - Successor Redevelopment Agency Reimbursement Fund,"['financial', 'forecast', 'five-year', 'survey', 'finance']",Filtered View,136.0,0.00782959124928037
+,"This is a Geology layer of the SF Bay Area developed by USGS. The source data and the metadata  can be accessed here:
+http://pubs.usgs.gov/of/1997/of97-744/",USGS Bay Area Geology,"['resilience', 'pca', 'priority conservation area', 'geology', 'bay area']",Map,135.0,0.007772020725388601
+Environmental,Vacant Parcels north of 580 within 50 ft of an above ground creek,Vacant Parcels Within 50 ft of Above Ground Creeks,"['creeks', 'habitat', 'pca', 'priority conservation area', 'resilience']",Map,133.0,0.007656879677605066
+Environmental,Census tracts below 580 that do not have enough public green space,Park Need Census Tracts Below580,"['resilience', 'pca', 'priority conservation area', 'urban greening', 'parks']",Map,130.0,0.007484168105929764
+Economic Development,,Residential Zones 300 ft of Industrial Areas,"['pca', 'resilience', 'priority conservation area']",Map,130.0,0.007484168105929764
+Public Safety,,FilteredCrime,['crime'],Filtered View,130.0,0.007484168105929764
+,This dataset includes all summary totals e-filed on Fair Political Practices Commission (FPPC) Form 460 Summary Page from 2011 to the present. The data is current as of the last modified date on this dataset. See the data key for column definitions: https://data.sfgov.org/Ethics/Campaign-Finance-Data-Key/wygs-cc76,schaaf summaries - duplicates!?,"['460', 'form', 'fppc', 'contributions', 'monetary']",Filtered View,129.0,0.007426597582037997
+Infrastructure,,Drainage Hot Spots,"['pca', 'resilience', 'priority conservation area']",Map,126.0,0.007253886010362694
+Education,,Map of Oakland Public Schools,[],Map,126.0,0.007253886010362694
+Environmental,Underdeveloped parcels adjacent to creeks.,Priority for Acquisition Creek Parcels,"['creeks', 'habitat', 'pca', 'priority conservation area', 'resilience']",Map,122.0,0.0070236039147956245
+Environmental,"1000 ft buffer around 880, 980, and the section of 580 that borders west Oakland. These areas are currently being considered for PCA designation.",Freeway Buffer 1000ft,"['resilience', 'pca', 'priority conservation area', 'urban greening', 'transportation']",Map,121.0,0.006966033390903857
+,PRR 9944,PRR  9944 Residential Rental Property List,[],File or Document,120.0,0.0069084628670120895
+Environmental,"PWA  generated list of flooding ""hot spots"" for inlet locations only. For use in PCA designation process, February 2015",Flooding Hot Spots.shp,"['resilience', 'pca', 'priority conservation area', 'flooding']",Map,118.0,0.006793321819228555
+,PRR 10030,PRR 10030 Oakland Residential Properties,[],File or Document,117.0,0.006735751295336788
+,PRR 9643,2011 Staff Report Reso,[],File or Document,114.0,0.0065630397236614854
+Education,,Oakland Public School Locations,[],Map,111.0,0.006390328151986183
+Environmental,Wetlands in Oakland deemed of international importance by the RAMSAR Convention,RAMSAR Wetlands,"['resilience', 'pca', 'priority conservation area', 'baylands', 'wetlands']",Map,110.0,0.0063327576280944155
+,PRR 9643,PSI Contract Pg 83-92,[],File or Document,110.0,0.0063327576280944155
+,PRR 9643,Progressive Solutions Payments Public Records Request # 9643,[],Dataset,109.0,0.006275187104202648
+City Government,2016 Ticket Distribution List Up To July,Copy Of 2016 Ticket Distribution List Up To July,['2016 ticket distribution list up to july'],Dataset,108.0,0.0062176165803108805
+,Baylands designations by the San Francisco Estuary Institute,SFEI Modern Baylands,"['resilience', 'pca', 'priority conservation area', 'baylands', 'wetlands']",Map,104.0,0.0059873344847438115
+Public Safety,,firestationsview1,[],Map,104.0,0.0059873344847438115
+Environmental,"Creeks within Oakland, including daylighted creeks and culverted creeks.",Oakland Creeks.shp,"['creeks', 'water']",Map,104.0,0.0059873344847438115
+,PRR 9643,PSI Contract Pg 73-82,[],File or Document,103.0,0.005929763960852044
+,Parking Citation Appeal,PRR 11781,[],File or Document,103.0,0.005929763960852044
+,Number of business licenses issued to landlords 2015,PRR 11855 Landlord 2015,[],File or Document,102.0,0.0058721934369602765
+Education,,Chinatown School Locations,[],Map,101.0,0.005814622913068509
+,PRR 9643,PSI Supplemental,[],File or Document,98.0,0.0056419113413932066
+Environmental,,High Particulate Matter Hotspots,"['pca', 'resilience', 'priority conservation area']",Map,93.0,0.00535405872193437
+Environmental,"Census tracts within Oakland California that are in the upper 25th percentile statewide for CalEPA's Cal Enviroscreen 2.0, which compiled a series of socioeconomic and environmental indicators to determine ""environmentally disadvantaged communities"".
+More information and methodology, plus the complete dataset available at http://oehha.ca.gov/ej/ces2.html",Oakland Cal EnviroScreen 2.0 75th Percentile,[],Map,93.0,0.00535405872193437
+,PRR 11812. List of entities that pay TOT,"Oakland's Hotels, Motels And B& Bs",[],File or Document,93.0,0.00535405872193437
+Education,,Chinatown School Locations,[],Map,93.0,0.00535405872193437
+,PRR 9643,PSI Contract Pg 53-62,[],File or Document,91.0,0.005238917674150835
+Life Enrichment,These are the recommended grant recipients for the 2014-2015 fiscal year. Additionally this dataset contains their funded project information.,FY14-15 Cultural Funding Program Grant Recommendations,[],Filtered View,88.0,0.005066206102475533
+,PRR 9643,Change Orders,[],File or Document,87.0,0.005008635578583765
+,PRR 9643,PSI Contract Pg 113-122,[],File or Document,86.0,0.004951065054691998
+Education,,Chinatown Headstart,[],Map,86.0,0.004951065054691998
+,PRR 9643,PSI Contract Pg 63-72,[],File or Document,86.0,0.004951065054691998
+,All Business Improvement Districts in the City of Oakland as of Jan 2015,Business Improvement Districts 20150109.shp,"['business improvement districts', 'oakland']",Map,85.0,0.00489349453080023
+,,Kalb - 12544 - Binder1,[],File or Document,84.0,0.004835924006908463
+,PRR 9643,PSI Mail Central Change,[],File or Document,83.0,0.004778353483016695
+,,Kalb - Suprema Meats - Redacted,[],File or Document,83.0,0.004778353483016695
+,Alameda County US Census Results 2010,castlemont,['census'],Map,82.0,0.004720782959124928
+,PRR 9643,PSI Contract Pg 123-132,[],File or Document,81.0,0.00466321243523316
+City Government,Oakland Council Districts,City of Oakland Council Districts,"['map', 'council district', 'california', 'oakland']",Map,81.0,0.00466321243523316
+,IPS Meters revenue and Transactions,September 2014,[],File or Document,80.0,0.004605641911341394
+,IPS meter revenues and transactions,April 2015,[],File or Document,80.0,0.004605641911341394
+,List of Enforcement Dates,PRR 11626,[],File or Document,80.0,0.004605641911341394
+,Parking citation appeal,PRR 11781 (2),[],File or Document,79.0,0.004548071387449626
+,Public records request # 11450,Cale 2014 Parking Meter Transactions,[],File or Document,79.0,0.004548071387449626
+Environmental,,Creek Restoration Priorities,[],Map,78.0,0.004490500863557859
+Environmental,"The Conservation Lands Network is the make-up of the types, amount and distribution of habitats that comprise the most essential lands needed to sustain the biodiversity of the San Francisco Bay Area.",Conservation Lands Network 2011,"['cln', 'conservation', 'conservation lands network', 'habitat', 'pca']",Map,78.0,0.004490500863557859
+,PRR 9643,Reso#83574 ( Progressive),[],File or Document,77.0,0.004432930339666091
+,,061714 PSI First Amend Supplemental,[],File or Document,77.0,0.004432930339666091
+,Parkmobile payment transactions,October 2014,[],File or Document,77.0,0.004432930339666091
+,Parkmobile Payment Transactions,November 2014,[],File or Document,77.0,0.004432930339666091
+,IPS meter revenues and transaction,June 2015,[],File or Document,74.0,0.004260218767990789
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of date of upload. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.
+BEAT = Police Beat of the REQADDRESS (see http://mapgis.oaklandnet.com/PoliceDistricts/ for a map of police beats)",13y potholes,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,74.0,0.004260218767990789
+,PRR 9643,PSI Contract Pg 133-142,[],File or Document,73.0,0.004202648244099021
+,Public Records Request 13077,Oakland Xerox Executed 3rd Year  Contract Extension,[],File or Document,73.0,0.004202648244099021
+,IPS meters revenues and Transactoins,November 2014,[],File or Document,73.0,0.004202648244099021
+,PRR 9860,PRR 9860 Mail Stream Checks,[],File or Document,72.0,0.004145077720207254
+,IPS meter revenues and transactions,February 2015,[],File or Document,71.0,0.004087507196315486
+,Public Records Request # 13077,Oakland Contract - - Fully Executed Copy (2),[],File or Document,71.0,0.004087507196315486
+,PRR 9643,PSI Contract Pg 103-112,[],File or Document,71.0,0.004087507196315486
+,,PRR 12631 Finance Committee 10-27-15,[],File or Document,71.0,0.004087507196315486
+Environmental,"The objective of this project was to digitally map the boundaries of Audubon California's Important Bird Areas (IBA). Existing Important Bird Areas identify critical terrestrial and inland water habitats for avifauna, in particular, habitat that supports rare, threatened or endangered birds and/or exceptionally large congregations of shorebirds and/or waterfowl.  The digitization of Important Bird Areas represents an important first step in conservation planning of these critical habitats using GIS. As of October 2007, a draft layer of all 148 Important Bird Areas in California was completed.  Currently, a review is in progress with Audubon Chapters and local experts, with a final version completed by Nov. 1, 2008.  The final map and data will be released to the public in November, 2008.",Audubon California Important Bird Areas 2014,"['audobon', 'birds', 'conservation']",Map,71.0,0.004087507196315486
+,Parkmobile Payment Transactions,December 2014,[],File or Document,71.0,0.004087507196315486
+Education,,mtgg,[],Filtered View,70.0,0.004029936672423719
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of date of upload. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.
+BEAT = Police Beat of the REQADDRESS (see http://mapgis.oaklandnet.com/PoliceDistricts/ for a map of police beats)",Oakland Illegal Dumping Reports,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,69.0,0.003972366148531951
+,,PRR 13396 Business Tax Accounts Closed 2009 To 2015,[],File or Document,68.0,0.003914795624640185
+,Parkmobile Payment Transactions,February 2015,[],File or Document,67.0,0.0038572251007484167
+,Parkmobile Payment Transactions,May 2015,[],File or Document,66.0,0.0037996545768566492
+,PRR 9643,PSI Contract Pg 1-12,[],File or Document,66.0,0.0037996545768566492
+,IPS meter revenues and transactions,March 2015,[],File or Document,65.0,0.003742084052964882
+,Business Verification Letters,PRR 12878,[],File or Document,65.0,0.003742084052964882
+,Business licenses issued to landlords in 2014,PRR 11855 Landlords 2014,[],File or Document,64.0,0.0036845135290731147
+Environmental,Borders of Botanical Priority Protection Areas from Calwater 2.2.1. Full metadata contained in shapefile.,Botanical Priority Protection Areas,[],Map,63.0,0.003626943005181347
+,Parkmobile payment transactions,September 2014,[],File or Document,63.0,0.003626943005181347
+,Parkmobile Payment Transactions,June 2015,[],File or Document,62.0,0.0035693724812895797
+,PRR 13396,PRR 13396 BT Accts Issued 2015 V1,[],File or Document,62.0,0.0035693724812895797
+,PRR 9643,PSI Contract Pg 93-102,[],File or Document,61.0,0.0035118019573978122
+,PRR 12424,PRR 12424 2012 - 2015 Issuance 12.7.2015,[],File or Document,61.0,0.0035118019573978122
+,IPS meters revenue and transactions,August 2014,[],File or Document,61.0,0.0035118019573978122
+,Parkmobile payment transactions,July 2014,[],File or Document,60.0,0.0034542314335060447
+,Parkmobile Payment Transactions,April 2015,[],File or Document,60.0,0.0034542314335060447
+,PRR 9643,PSI Contract Pg 33-42,[],File or Document,57.0,0.0032815198618307427
+Economic Development,Building Footprints created from Aerial Imagery 2002-2003,oakland,['buildings'],Map,57.0,0.0032815198618307427
+Environmental,,Brittleleaf Manzanita Stands,[],Map,55.0,0.0031663788140472078
+,PRR 9643,PSI Contract Pg 143-152,[],File or Document,55.0,0.0031663788140472078
+,Parkmobile Payment Transaction,January 2015,[],File or Document,55.0,0.0031663788140472078
+,responsive records for Recordtrac 15974 & 15944,Kalb Binder - 15974-15944,[],File or Document,54.0,0.0031088082901554403
+,PRR 12185,PRR 12185 September 2015 Issuance 11.30.2015,[],File or Document,54.0,0.0031088082901554403
+,PRR 9643,PSI Contract Pg 13-22,[],File or Document,53.0,0.003051237766263673
+,PRR 9643,PSI Contract Pg 43-52,[],File or Document,53.0,0.003051237766263673
+,,PRR 13918,[],File or Document,53.0,0.003051237766263673
+,Parkmobile payment transactions,August 2014,[],File or Document,52.0,0.0029936672423719057
+,IPS meter revenues and transactions,May 2015,[],File or Document,51.0,0.0029360967184801382
+,Cale meter revenues and Transactions,Oakland 07012014-03312015,[],File or Document,51.0,0.0029360967184801382
+,Cale meter revenues and transactoins,Oakland 04012015-06302015,[],File or Document,50.0,0.0028785261945883708
+,PRR 9643,PSI Contract Pg 23-32,[],File or Document,49.0,0.0028209556706966033
+,IPS meter revenues and transactions,December 2014,[],File or Document,48.0,0.002763385146804836
+,All Business Improvement Districts in the City of Oakland as of Jan 2015,2015 MAP OAK BIDs,"['business improvement districts', 'oakland']",Map,48.0,0.002763385146804836
+,IPS meter revenues and transactions,January 2015,[],File or Document,47.0,0.0027058146229130683
+,Zoning as of 5/3/2016,Zoning Eff20160503 Ord13367,['zoning'],Map,47.0,0.0027058146229130683
+,PRR 9646,PRR 9646 Lapse Of Revenue Maintenance Support Letter From PSI,[],File or Document,45.0,0.0025906735751295338
+,PRR 13396,PRR 13396 BT Accts Issued 2010 V1,[],File or Document,45.0,0.0025906735751295338
+,,PRR 13077 FY2011-2012 Outcome,[],File or Document,44.0,0.0025331030512377663
+,PRR 9643,RESO #80045 CMS ( PROGRESSIVE SOLUTION),[],File or Document,44.0,0.0025331030512377663
+,,PRR12424 11.1.2012-11.1.2015 Issuance 11.02.2015,[],File or Document,43.0,0.002475532527345999
+,List of citations issued,PRR 11626 10.28.190 Issuance March14 To August15 09.22.2015,[],File or Document,43.0,0.002475532527345999
+,PRR 13077,Copy Of Oakland Suspend And Disposition Tables 3.3.2016,[],File or Document,43.0,0.002475532527345999
+,,PRR 13077 FY2013-2014 Outcome,[],File or Document,42.0,0.0024179620034542313
+,,General Plan Eff20150519 Res85601.shp,"['general plan', 'planning']",Map,40.0,0.002302820955670697
+,,PRR 13077 FY2014-2015 Outcome,[],File or Document,38.0,0.002187679907887162
+,PRR 13396,PRR 13396 BT Accts Issued 2014 V1,[],File or Document,38.0,0.002187679907887162
+,,PRR 13077 FY2012-2013 Outcome,[],File or Document,36.0,0.002072538860103627
+,PRR 13396,PRR 13396 BT Accts Issued 2013 V1,[],File or Document,36.0,0.002072538860103627
+,,PRR 13077 FY2015-3.2.2016 Outcome,[],File or Document,35.0,0.0020149683362118594
+,PRR 13396,PRR 13396 BT Accts Issued 2011 V1,[],File or Document,34.0,0.0019573978123200923
+,IPS meters revenue and transactions,October 2014,[],File or Document,33.0,0.0018998272884283246
+,PRR 13396,PRR 13396 BT Accts Issued 2012 V1,[],File or Document,30.0,0.0017271157167530224
+,PRR 9643,061014 PSI First Amend Staff Report,[],File or Document,30.0,0.0017271157167530224
+,PRR 13396,PRR 13396 BT Accts Issued 2009 V1,[],File or Document,30.0,0.0017271157167530224
+,IPS meters revenue/transactions,July 2014,[],File or Document,29.0,0.001669545192861255
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of October 6, 2015. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that Public Works is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.",PotHoley,"['maintenance', 'illegal dumping', 'pot holes', 'service requests', 'public works']",Map,22.0,0.0012665515256188831
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the Oakland Call Center in August 2012. All others are 6 digits. 
+DATETIMEINIT = The Date that the request was initiated. 
+SOURCE = Indicates if the request was received via SeeClickFix, via the Report A Problem website at www.oaklandpw.com, or via (Phone or Email). 
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes: ?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only. Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline ?TE? means ?Traffic Engineering? 
+REQCATEGORY = Request Category 
+REQADDRESS = Request Address An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline. 
+STATUS = The status as of date of upload. Pending: Request received for review OPEN: Request assigned to work unit WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done) CLOSED: Request is resolved REFERRED: Oakland Call Center received the request and forwarded it to another entity (see REFERREDTO) UNFUNDED: Request is for an service that the City is not funded to provide CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request 
+DATETIMECLOSED = The Date that the request was closed 
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude. 
+REFERREDTO = If the status is Referred, this shows who it was referred to. 
+COUNCILDISTRICT = City Council District of the REQADDRESS.
+BEAT = Police Beat of the REQADDRESS (see http://mapgis.oaklandnet.com/PoliceDistricts/ for a map of police beats)",Zoom into my hood,"['transporation', 'maintenance', 'illegal dumping', 'pot holes', 'service requests']",Map,19.0,0.001093839953943581
+Financial,Expenditures of the Mayor's Proposed Budget  for the 2017-18 and 2018-19 Fiscal Years. The 2016-17 Midcycle Budget and 2015-16 Audited Actuals are also included for context.,FY2017-19 Mayor's Proposed Budget Expenditures,"['expenditures', 'proposed budget', 'budget']",Dataset,13.0,0.0007484168105929764
+,"Video attached to Ken Houston email - ""Status Update and Support Appreciation"" - for Recordtrac 18288",IMG 0878,['ken houston recordtrac 18288'],File or Document,12.0,0.000690846286701209
+Infrastructure,"REQUESTID = The service request number. This should be shown as an integer without decimals. 5-digit 
+REQUESTIDs were imported from the Recycling Hotline?s prior tracking system when they switched to the same system as the rest of Public Works in August 2012. All others are 6 digits.
+DATETIMEINIT = The Date/Time that the request was initiated.
+DESCRIPTION = Type of issue. Most of these are self-explanatory. Notes:
+?test template? and ?This is a test subject. Ignore this ticket.? were for testing/training purposes only.
+Descriptions starting with ?Business? ?City Services? ?CityBldg? (no space) ?Events? ?Misc? are/were used by the Recycling Hotline
+?TE? means ?Traffic Engineering?
+REQCATEGORY = Request Category
+REQADDRESS = Request Address
+An address of ZZ indicates that the address was not recorded, usually this is for general inquiries to the Recycling Hotline.
+STATUS = The status as of 1/30/13. 
+Pending: Request received for review
+OPEN: Request assigned to work unit 
+WOCREATE: Work Order created for work to be done (not all work units use this status, so Open service requests may also have work orders created for work to be done)
+CLOSED: Request is resolved
+REFERRED: Public Works received the request and forwarded it to another entity (see REFERREDTO)
+UNFUNDED: Request is for an service that Public Works is not funded to provide
+CANCEL: Request was canceled, generally because it was created erroneously, it was used for testing/training, or it is a request that was received that duplicated an existing unresolved request
+DATETIMECLOSED = The Date/Time that the request was closed
+SRX, SRY= Coordinates of the issue. Note that this is in NAD_1983_StatePlane_California_III_FIPS_0403_Feet, not latitude/longitude.
+REFERREDTO = If the status is Referred, this shows who it was referred to.",SRX>6058000 AND SRX<6059000,"['illegal dumping', 'pot holes', 'service requests', 'public works']",Filtered View,5.0,0.0002878526194588371
+,Revenues of the Mayor's Proposed Budget  for the 2017-18 and 2018-19 Fiscal Years. The 2016-17 Midcycle Budget and 2015-16 Audited Actuals are also included for context.,FY2017-19 Mayor's Proposed Budget Revenues,"['taxes', 'revenues', 'proposed budget', 'budget']",Dataset,5.0,0.0002878526194588371
+,Budget Book Cover Photo,140520 8320 Lake Merritt Bridge Super- HD Panorama- X3  PIC - For Explore Budget,[],File or Document,3.0,0.00017271157167530224
+,,Wa-heart,[],File or Document,1.0,5.757052389176742e-05

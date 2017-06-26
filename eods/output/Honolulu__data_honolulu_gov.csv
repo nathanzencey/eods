@@ -1,183 +1,183 @@
 category,descrip,name,topics,type,views,views_norm
-Public Safety,A snapshot of Crime Incidents from the Honolulu Police Department,Crime Incidents,[],Dataset,21285.0,1.0
-,,data,[],Filtered View,8781.0,0.4125440451021846
+Public Safety,A snapshot of Crime Incidents from the Honolulu Police Department,Crime Incidents,[],Dataset,21288.0,1.0
+,,data,[],Filtered View,8782.0,0.412532882375047
 ,"Actual spending 2010&2011
 Budget 2012
-Proposed Budget 2013",Sam's View,[],Filtered View,7759.0,0.36452901104063895
+Proposed Budget 2013",Sam's View,[],Filtered View,7760.0,0.36452461480646375
 Finance,"Actual spending 2010&2011
 Budget 2012
-Proposed Budget 2013",City spending,[],Dataset,7052.0,0.33131313131313134
-Finance,Proposed City Budget for Fiscal Year 2014,Proposed FY14 Budget,"['fy2014', 'budget', 'proposed']",Dataset,5877.0,0.27610993657505284
-,Location and descriptions of public works of art,Public Art,[],Dataset,4822.0,0.22654451491660793
-Transportation,,Abandoned Vehicles,[],Dataset,4632.0,0.21761804087385483
-Finance,,By Fund,[],Chart,4237.0,0.19906037115339442
-Finance,Proposed City Budget for Fiscal Year 2015,Proposed FY15 Budget,"['budget', 'fy2015', 'proposed']",Dataset,3083.0,0.14484378670425183
-Finance,Adopted Fiscal Year 2016 Budget,Adopted FY15 Budget,"['adopted', 'budget', 'fiscal year 2015', 'fy15']",Dataset,1617.0,0.07596899224806201
-,,Sister Cities,[],Dataset,1531.0,0.07192858820765798
-Finance,Adopted Fiscal Year 2016 Budget,Adopted FY16 Budget,[],Dataset,1462.0,0.06868686868686869
-Finance,Proposed City Budget for Fiscal Year 2016,Proposed FY16 Budget,"['budget', 'fy2016', 'proposed']",Dataset,1407.0,0.06610288935870332
-,Updated daily with reports from the past month.,Honolulu 311 Reports,[],Dataset,1336.0,0.06276720695325347
-Finance,,CIty Budget 2012,[],Chart,1274.0,0.05985435752877613
-Transportation,Bike Rack Data,Bike Racks,"['racks', 'bicycles', 'bike']",Filtered View,1238.0,0.05816302560488607
-Transportation,,Bus Stop Locations,[],Dataset,1228.0,0.05769321118158328
-Finance,,City Spending 2011 Charted,[],Chart,1132.0,0.05318299271787644
-Transportation,As of 5-4-2015,Road Paving Status,[],Dataset,1058.0,0.049706365985435756
-Transportation,Bike Rack Data,Bike Rack Locations By Area,"['racks', 'bicycles', 'bike']",Dataset,1048.0,0.049236551562132955
-Location,,Warning Sirens,[],Map,997.0,0.046840498003288704
+Proposed Budget 2013",City spending,[],Dataset,7052.0,0.33126644118752346
+Finance,Proposed City Budget for Fiscal Year 2014,Proposed FY14 Budget,"['fy2014', 'budget', 'proposed']",Dataset,5877.0,0.27607102593010147
+,Location and descriptions of public works of art,Public Art,[],Dataset,4836.0,0.22717023675310033
+Transportation,,Abandoned Vehicles,[],Dataset,4634.0,0.21768132281097333
+Finance,,By Fund,[],Chart,4237.0,0.199032318677189
+Finance,Proposed City Budget for Fiscal Year 2015,Proposed FY15 Budget,"['budget', 'fy2015', 'proposed']",Dataset,3083.0,0.14482337467117626
+Finance,Adopted Fiscal Year 2016 Budget,Adopted FY15 Budget,"['adopted', 'budget', 'fiscal year 2015', 'fy15']",Dataset,1617.0,0.07595828635851183
+,,Sister Cities,[],Dataset,1533.0,0.07201240135287486
+Finance,Adopted Fiscal Year 2016 Budget,Adopted FY16 Budget,[],Dataset,1462.0,0.0686771890266817
+Finance,Proposed City Budget for Fiscal Year 2016,Proposed FY16 Budget,"['budget', 'fy2016', 'proposed']",Dataset,1408.0,0.06614054866591507
+,Updated daily with reports from the past month.,Honolulu 311 Reports,[],Dataset,1340.0,0.06294626080420894
+Finance,,CIty Budget 2012,[],Chart,1275.0,0.05989289740698985
+Transportation,Bike Rack Data,Bike Racks,"['racks', 'bicycles', 'bike']",Filtered View,1239.0,0.05820180383314543
+Transportation,,Bus Stop Locations,[],Dataset,1229.0,0.05773205561818865
+Finance,,City Spending 2011 Charted,[],Chart,1133.0,0.05322247275460353
+Transportation,As of 5-4-2015,Road Paving Status,[],Dataset,1059.0,0.04974633596392334
+Transportation,Bike Rack Data,Bike Rack Locations By Area,"['racks', 'bicycles', 'bike']",Dataset,1048.0,0.04922961292747088
+Location,,Warning Sirens,[],Map,997.0,0.04683389703119128
 Transportation,"Station envelope footprints for the 21 HHCTCP stations from East Kapolei to Ala Moana Center as presented in preliminary engineering (PE) drawings prepared for RTD/HART by Parsons Brinckerhoff and subconsultants in 2009/2010. These footrpints were traced in ArcMap over rubber-sheeted PE station area, architectural, and civil site plan drawings, and are not intended to be exact.
-To be used principally for station area land use planning.",Rail Station Footprints,[],External Link,792.0,0.037209302325581395
-,,HPD Crime Incidents,[],Dataset,756.0,0.03551797040169133
-Recreation,City & County exceptional tree database,Exceptional Trees On Oahu,[],Dataset,736.0,0.03457834155508574
-Finance,Proposed City Budget for Fiscal Year 2017,Proposed FY17 Budget,"['budget', 'fy2017', 'proposed']",Dataset,736.0,0.03457834155508574
-Finance,Adopted Fiscal Year 2017 Budget,Adopted FY17 Budget,"['adopted', 'budget', 'fiscal year 2017', 'fy17']",Dataset,724.0,0.03401456424712239
-,"Feature Service of Tsunami Evacuation Zones, island of Oahu.",Tsunami Evacuation Zone,[],External Link,672.0,0.03157152924594785
-Location,Location of Refuse Collection yards for City & County of Honolulu,Refuse Collection Yard,[],External Link,672.0,0.03157152924594785
-Location,,Neighborhood Boards,[],Dataset,660.0,0.031007751937984496
-,Location and descriptions of public works of art,Art over time,[],Chart,650.0,0.0305379375146817
-Location,Parking facilities in the City & County of Honolulu.,Parking Facilties,[],External Link,647.0,0.030396993187690863
-,Top Ten Sites from each department in Dec 2012,2012 Dec Top Ten Sites,[],Dataset,627.0,0.02945736434108527
-,,Data Catalog,[],Dataset,534.0,0.025088090204369275
-,Updated daily with reports from the past month.,Honolulu 311 Reports,[],Map,529.0,0.024853182992717878
-,Updated daily with reports from the past month.,Honolulu 311 Reports Mapped,[],Map,506.0,0.023772609819121448
-,,HPD Traffic Incidents,[],Dataset,503.0,0.023631665492130607
-Location,Feature Service of Honolulu Fire Department Stations on the Island of Oahu,Fire Stations,[],External Link,470.0,0.022081277895231382
-Transportation,,Parking 2015,[],Dataset,463.0,0.02175240779891943
+To be used principally for station area land use planning.",Rail Station Footprints,[],External Link,792.0,0.03720405862457723
+,,HPD Crime Incidents,[],Dataset,759.0,0.03565388951521984
+Recreation,City & County exceptional tree database,Exceptional Trees On Oahu,[],Dataset,738.0,0.0346674182638106
+Finance,Proposed City Budget for Fiscal Year 2017,Proposed FY17 Budget,"['budget', 'fy2017', 'proposed']",Dataset,737.0,0.03462044344231492
+Finance,Adopted Fiscal Year 2017 Budget,Adopted FY17 Budget,"['adopted', 'budget', 'fiscal year 2017', 'fy17']",Dataset,724.0,0.0340097707628711
+Location,Location of Refuse Collection yards for City & County of Honolulu,Refuse Collection Yard,[],External Link,674.0,0.031661029688087185
+,"Feature Service of Tsunami Evacuation Zones, island of Oahu.",Tsunami Evacuation Zone,[],External Link,672.0,0.03156708004509583
+Location,,Neighborhood Boards,[],Dataset,661.0,0.031050357008643368
+,Location and descriptions of public works of art,Art over time,[],Chart,650.0,0.030533633972190905
+Location,Parking facilities in the City & County of Honolulu.,Parking Facilties,[],External Link,647.0,0.030392709507703872
+,Top Ten Sites from each department in Dec 2012,2012 Dec Top Ten Sites,[],Dataset,627.0,0.029453213077790304
+,,Data Catalog,[],Dataset,534.0,0.025084554678692222
+,Updated daily with reports from the past month.,Honolulu 311 Reports,[],Map,529.0,0.02484968057121383
+,,HPD Traffic Incidents,[],Dataset,511.0,0.024004133784291618
+,Updated daily with reports from the past month.,Honolulu 311 Reports Mapped,[],Map,507.0,0.023816234498308907
+Location,Feature Service of Honolulu Fire Department Stations on the Island of Oahu,Fire Stations,[],External Link,470.0,0.02207816610296881
+Transportation,,Parking 2015,[],Dataset,463.0,0.02174934235249906
 Finance,"Actual spending 2010&2011
 Budget 2012
-Proposed Budget 2013",City Spending by Division 2010-2013,[],Filtered View,459.0,0.02156448202959831
-Finance,,City Spending 2010 by Department,[],Chart,448.0,0.021047686163965233
-Transportation,,Bus Routes,[],Dataset,443.0,0.020812778952313836
-Location,"Official Polling Places and Election Districts for 2012 elections for U.S. Congress, State of Hawaii House and Senate and Honolulu Council",Polling Places And Election Precincts,[],External Link,423.0,0.019873150105708247
-Finance,"Actual spend 2010,2011. Budget for 2012, Proposed Budget 2013",City Budget  - Compare 2010-2013,[],Chart,422.0,0.019826168663377965
-Location,,Automated external defibrillator Locations,[],Dataset,408.0,0.01916842847075405
-Location,,Zoning Map,[],External Link,407.0,0.019121447028423774
-Transportation,Feature Service of the Streets for the City & County of Honolulu,Streets,[],External Link,393.0,0.01846370683579986
-Location,,Neighborhood Board Locations,[],Map,375.0,0.017618040873854827
-Location,"This map is used to publish information about parks and recreation areas in a community as both points and polygons. The polygons, including some proposed parks, were originally built from parcels. The point location of the parks are derived from a subset of Facility Sites and related to a table that contains information about parks and recreation activities",Parks,[],External Link,369.0,0.01733615221987315
-,Emergency shelters for the City & County of Honolulu. Based on data from the Department of Emergency Management (DEM) Ver2 (May18 2012),Emergency Shelter,[],External Link,365.0,0.017148226450552032
-Location,Feature Service of Drop Off and Refuse Transfer Stations,Refuse Drop-off and Transfer Stations,[],External Link,352.0,0.016537467700258397
-Public Safety,Tsunami shelters for the island of Oahu,Shelters - Tsunami,[],External Link,334.0,0.015691801738313367
-Transportation,,City Public Parking Stalls,[],Dataset,333.0,0.015644820295983086
-,"The City and County of Honolulu, Department of Transportation Services, operates Hawaii Kai, Mililani, and Royal Kunia Park & Ride facilities. Park & Ride facilities are transit stations where bus patrons, and future rail patrons, may drive to the facility, leave their car during the day and catch TheBus.",Park & Ride,[],External Link,314.0,0.014752172891707776
-Location,Honolulu Police Department station locations for the City & County of Honolulu,Police Stations,[],External Link,304.0,0.01428235846840498
+Proposed Budget 2013",City Spending by Division 2010-2013,[],Filtered View,460.0,0.021608417888012026
+Finance,,City Spending 2010 by Department,[],Chart,448.0,0.021044720030063885
+Transportation,,Bus Routes,[],Dataset,444.0,0.020856820744081173
+Location,"Official Polling Places and Election Districts for 2012 elections for U.S. Congress, State of Hawaii House and Senate and Honolulu Council",Polling Places And Election Precincts,[],External Link,423.0,0.019870349492671927
+Finance,"Actual spend 2010,2011. Budget for 2012, Proposed Budget 2013",City Budget  - Compare 2010-2013,[],Chart,422.0,0.01982337467117625
+Location,,Zoning Map,[],External Link,410.0,0.01925967681322811
+Location,,Automated external defibrillator Locations,[],Dataset,409.0,0.01921270199173243
+Transportation,Feature Service of the Streets for the City & County of Honolulu,Streets,[],External Link,399.0,0.018742953776775647
+Location,,Neighborhood Board Locations,[],Map,376.0,0.017662532882375046
+Location,"This map is used to publish information about parks and recreation areas in a community as both points and polygons. The polygons, including some proposed parks, were originally built from parcels. The point location of the parks are derived from a subset of Facility Sites and related to a table that contains information about parks and recreation activities",Parks,[],External Link,369.0,0.0173337091319053
+,Emergency shelters for the City & County of Honolulu. Based on data from the Department of Emergency Management (DEM) Ver2 (May18 2012),Emergency Shelter,[],External Link,365.0,0.017145809845922587
+Location,Feature Service of Drop Off and Refuse Transfer Stations,Refuse Drop-off and Transfer Stations,[],External Link,354.0,0.016629086809470124
+Public Safety,Tsunami shelters for the island of Oahu,Shelters - Tsunami,[],External Link,334.0,0.015689590379556556
+Transportation,,City Public Parking Stalls,[],Dataset,333.0,0.01564261555806088
+,"The City and County of Honolulu, Department of Transportation Services, operates Hawaii Kai, Mililani, and Royal Kunia Park & Ride facilities. Park & Ride facilities are transit stations where bus patrons, and future rail patrons, may drive to the facility, leave their car during the day and catch TheBus.",Park & Ride,[],External Link,315.0,0.01479706877113867
+Location,Honolulu Police Department station locations for the City & County of Honolulu,Police Stations,[],External Link,304.0,0.014280345734686208
 Finance,"Actual spending 2010&2011
 Budget 2012
-Proposed Budget 2013",Honolulu 2011 Expenditures,[],Filtered View,287.0,0.013483673948790229
+Proposed Budget 2013",Honolulu 2011 Expenditures,[],Filtered View,287.0,0.013481773769259678
 Finance,"Actual spending 2010&2011
 Budget 2012
-Proposed Budget 2013",City Spending 2010 by Fund,[],Chart,285.0,0.013389711064129669
-,,HART Proposed Budget 2012,[],Dataset,278.0,0.013060840967817712
-Location,"Traffic camera locations as of June 5, 2015",Traffic Camera Locations,[],Dataset,276.0,0.012966878083157152
-Transportation,,DTS/DFM Sign Inventory - Fort St. to River St.  as of: 2014-08-07,[],Dataset,270.0,0.012684989429175475
-,Feature Service of Lifeguard Tower locations island of Oahu,Lifeguard Towers,[],External Link,251.0,0.011792342024900164
-Location,City & County owned land on the island of Oahu,City & County Owned Land,[],External Link,247.0,0.011604416255579047
-Location,Feature Service of Hospitals/Medical Centers within the City & County of Honolulu.,Hospitals,[],External Link,244.0,0.011463471928588207
-Location,State Owned Lands on the island of Oahu,State Owned Land,[],External Link,238.0,0.01118158327460653
-Transportation,,Electric Vehicle Charging Stations,[],External Link,225.0,0.010570824524312896
-,Feature Service of refuse manual pick up routes.,Refuse Manual Pick Up Routes,[],External Link,220.0,0.0103359173126615
-,,Curbside Collection/Schedules,[],External Link,219.0,0.01028893587033122
-Location,Federal owned lands on the island of Oahu,Federal Owned Land,[],External Link,208.0,0.009772140004698145
-Recreation,City & County exceptional tree database,Exceptional Trees On Oahu Mapped,['trees'],External Link,200.0,0.009396288466055908
-,State Lessee Land on the island of Oahu,State Lessee Land,[],External Link,198.0,0.009302325581395349
-Location,City & County Lessee Lands on the island of Oahu,City & County Lessee Land,[],External Link,184.0,0.008644585388771435
-Transportation,Map of Road Rehabilitation Projects between 2013 to 2017 for the City and County of Honolulu,Road Repaving (Rehabilitation),"['repaving', 'road']",External Link,182.0,0.008550622504110875
-,Basemap for City and County of Honolulu,Basemap for City and County of Honolulu,[],External Link,179.0,0.008409678177120038
-,Federal Lessee Land for the island of Oahu,Federal Lessee Land,[],External Link,178.0,0.008362696734789758
-Finance,,Hanauma Bay Revenues FY14 2013-12-31,['hanauma bay'],File or Document,173.0,0.00812778952313836
-Transportation,,Oahu Bikeways Map,"['bicycle', 'bike', 'bikeway']",External Link,168.0,0.007892882311486963
-Transportation,,Existing Bike Facilities,[],Dataset,168.0,0.007892882311486963
-,Refuse Auto Pickup Routes Feature Service,Refuse Auto Pickup Routes,[],External Link,166.0,0.007798919426826404
-Finance,,Hanauma Bay Expenditures FY14 2014-07-17,['hanauma bay'],File or Document,152.0,0.00714117923420249
-Finance,Expenditures and Encumbrances for Hanauma Bay for FY 2013,Hanauma Bay Expenditures FY13 6-30-13 Final,[],File or Document,146.0,0.006859290580220813
-Business,This file is a static view of Building Permit data.  This snapshot of data is an extract from the source database as of the moment of the snapshot's creation.  A snapshot does not reflect changes that occur in the live data source.,"Building Permits - January 1, 2005 thru December 31, 2016",[],Dataset,143.0,0.006718346253229974
-Public Safety,Web map of the various public safety related services on Oahu,Public Safety Service Locations,[],External Link,142.0,0.0066713648108996946
-Finance,,Hanauma Bay Revenues FY13 Final,['hanauma bay'],File or Document,137.0,0.006436457599248297
-,Updated daily with reports from the past month.,home,[],Filtered View,134.0,0.006295513272257458
-Finance,FY 2014 Expenditures and Encumbrances for Hanauma Bay as of 12-31/13,Hanauma Bay Expenditures FY14 12-31-13,[],File or Document,131.0,0.006154568945266619
-Finance,,Hanauma Bay Expenditures FY15 2014-10-01,['hanauma bay'],File or Document,131.0,0.006154568945266619
-Finance,,Hanauma Bay Expenditures Detail FY14 2014-07-17,['hanauma bay'],File or Document,129.0,0.006060606060606061
-Location,,Soil Types,[],External Link,129.0,0.006060606060606061
-Finance,,Hanauma Bay Expenditures FY14 2014-08-06,['hanauma bay'],File or Document,128.0,0.006013624618275781
-Public Safety,,Storm Water System,[],External Link,128.0,0.006013624618275781
-Finance,,Hanauma Bay Revenues FY15 2014-12-04,['hanauma bay'],File or Document,124.0,0.005825698848954663
-Finance,,Hanauma Bay Expenditures FY15 2014-11-05,['hanauma bay'],File or Document,122.0,0.005731735964294104
-Finance,,Hanauma Bay Expenditures FY14 2014-03-31,['hanauma bay'],File or Document,122.0,0.005731735964294104
-Finance,,Hanauma Bay Revenues FY15 2014-09-02,['hanauma bay'],File or Document,118.0,0.005543810194972985
-Finance,,Hanauma Bay Expenditures FY15 2014-09-02,['hanauma bay'],File or Document,117.0,0.0054968287526427064
-Finance,,Hanauma Bay Revenues FY14 2014-07-17,['hanauma bay'],File or Document,114.0,0.005355884425651868
-Recreation,,Parks by Activity,[],External Link,113.0,0.005308902983321588
-Finance,,Hanauma Bay Revenues FY15 2015-03-31,['hanauma bay'],File or Document,110.0,0.00516795865633075
-Finance,,Hanauma Bay Revenues FY15 2014-08-06,['hanauma bay'],File or Document,108.0,0.00507399577167019
-Finance,,Hanauma Bay Revenues FY15 2015-01-31,['hanauma bay'],File or Document,108.0,0.00507399577167019
-Finance,,Hanauma Bay Revenues FY14 2014-03-31,['hanauma bay'],File or Document,108.0,0.00507399577167019
-Finance,,Hanauma Bay Expenditures FY15 2014-12-04,['hanauma bay'],File or Document,102.0,0.004792107117688513
-Finance,,Hanauma Bay Expenditures FY15 2014-12-31,['hanauma bay'],File or Document,101.0,0.004745125675358233
-Finance,,Hanauma Bay Revenues FY15 2014-10-01,['hanauma bay'],File or Document,101.0,0.004745125675358233
-Finance,,Hanauma Bay Revenues FY15 2015-02-28,['hanauma bay'],File or Document,97.0,0.004557199906037116
-Public Safety,A snapshot of Crime Incidents from the Honolulu Police Department,July 1 2016,[],Filtered View,96.0,0.004510218463706836
-Finance,,Hanauma Bay Expenditures FY15 2015-03-31,['hanauma bay'],File or Document,94.0,0.004416255579046277
-Finance,,Hanauma Bay Revenues FY15 2015-04-30,['hanauma bay'],File or Document,92.0,0.0043222926943857175
-Transportation,,DTS/DFM Sign Inventory - Fort St. to River St. as of: 2014-08-07,[],Map,89.0,0.004181348367394879
-Finance,,Hanauma Bay Revenues FY15 2014-11-05,['hanauma bay'],File or Document,86.0,0.00404040404040404
-Finance,,Hanauma Bay Revenues FY15 2015-06-30,['hanauma bay'],File or Document,86.0,0.00404040404040404
-Finance,,Hanauma Bay Expenditures FY15 2015-02-28,['hanauma bay'],File or Document,86.0,0.00404040404040404
-Recreation,,Shoreline Access Points,[],External Link,85.0,0.003993422598073761
-Finance,,Hanauma Bay Expenditures FY15 2015-01-31,['hanauma bay'],File or Document,85.0,0.003993422598073761
-Finance,,Hanauma Bay Revenues FY15 2015-05-31,['hanauma bay'],File or Document,80.0,0.0037585153864223633
-Finance,,Hanauma Bay Revenues FY15 2014-12-31,['hanauma bay'],File or Document,79.0,0.0037115339440920835
-Finance,,Hanauma Bay Expenditures FY15 2015-04-30,['hanauma bay'],File or Document,77.0,0.0036175710594315244
-Transportation,,Existing Bike Facilities Mapped,[],Map,77.0,0.0036175710594315244
-Finance,,Hanauma Bay Expenditures FY15 2015-06-30,['hanauma bay'],File or Document,76.0,0.003570589617101245
-Finance,,Hanauma Bay Expenditures FY15 2015-05-31,['hanauma bay'],File or Document,74.0,0.003476626732440686
-,Location and descriptions of public works of art,test,[],Filtered View,71.0,0.0033356824054498473
-Finance,,Hanauma Bay Revenues FY16 2015-07-31,['hanauma bay'],File or Document,71.0,0.0033356824054498473
-Finance,,Hanauma Bay Expenditures FY16 2016-02-01,['hanauma bay'],File or Document,64.0,0.0030068123091378904
-Finance,,Hanauma Bay Revenues FY16 2015-08-31,['hanauma bay'],File or Document,62.0,0.0029128494244773317
-Finance,,Hanauma Bay Expenditures FY16 2015-07-31,['hanauma bay'],File or Document,61.0,0.002865867982147052
-Finance,,Hanauma Bay Expenditures FY16 2015-11-09,['hanauma bay'],File or Document,61.0,0.002865867982147052
-Finance,,Hanauma Bay Revenues FY16 2015-10-01,['hanauma bay'],File or Document,59.0,0.0027719050974864927
-Finance,,Hanauma Bay Revenues FY16 2015-12-01,['hanauma bay'],File or Document,59.0,0.0027719050974864927
-Finance,,Hanauma Bay Expenditures FY16 2015-08-31,['hanauma bay'],File or Document,56.0,0.002630960770495654
-Finance,,Hanauma Bay Expenditures FY16 2016-01-08,['hanauma bay'],File or Document,53.0,0.0024900164435048156
-Finance,,Hanauma Bay Revenues FY16 2016-01-08,['hanauma bay'],File or Document,51.0,0.0023960535588442564
-Finance,,Hanauma Bay Expenditures FY16 2016-03-01,['hanauma bay'],File or Document,51.0,0.0023960535588442564
-Finance,,Hanauma Bay Revenues FY16 2015-11-09,['hanauma bay'],File or Document,50.0,0.002349072116513977
-Finance,,Hanauma Bay Revenues FY16 2016-02-01,['hanauma bay'],File or Document,49.0,0.0023020906741836973
-Finance,,Hanauma Bay Expenditures FY16 2015-12-01,['hanauma bay'],File or Document,48.0,0.002255109231853418
-Finance,,Hanauma Bay Expenditures FY16 2015-10-01,['hanauma bay'],File or Document,45.0,0.0021141649048625794
-Finance,Adopted Fiscal Year 2017 Budget,Adopted FY17 Budget by Department,"['adopted', 'budget', 'fiscal year 2017', 'fy17']",Chart,40.0,0.0018792576932111817
-Finance,,Hanauma Bay Revenues FY16 2016-03-01,['hanauma bay'],File or Document,35.0,0.001644350481559784
-Finance,,Hanauma Bay Expenditures FY16 2016-03-31,['hanauma bay'],File or Document,35.0,0.001644350481559784
-Finance,,Hanauma Bay Expenditures FY16 2016-06-02,['hanauma bay'],File or Document,30.0,0.0014094432699083862
-Finance,,Hanauma Bay Revenues FY16 2016-06-02,['hanauma bay'],File or Document,29.0,0.0013624618275781067
-Finance,2016-05-03,Hanauma Bay Expenditures FY16,['hanauma bay'],File or Document,27.0,0.0012684989429175475
-Finance,,Hanauma Bay Revenues FY16 2016-03-31,['hanauma bay'],File or Document,23.0,0.0010805731735964294
-Finance,,Hanauma Bay Expenditures FY16 2016-07-01,['hanauma bay'],File or Document,21.0,0.0009866102889358704
-Finance,2016-05-03,Hanauma Bay Revenues FY16,['hanauma bay'],File or Document,21.0,0.0009866102889358704
-Business,This file is a static view of Building Permit data.  This snapshot of data is an extract from the source database as of the moment of the snapshot's creation.  A snapshot does not reflect changes that occur in the live data source.,2016 By Contractor,[],Filtered View,20.0,0.0009396288466055908
-Finance,,Hanauma Bay Revenues FY16 2016-07-01,['hanauma bay'],File or Document,19.0,0.0008926474042753112
-Business,This file is a static view of Building Permit data.  This snapshot of data is an extract from the source database as of the moment of the snapshot's creation.  A snapshot does not reflect changes that occur in the live data source.,2016 Building Permits,[],Filtered View,19.0,0.0008926474042753112
-Finance,,Hanauma Bay Revenues FY17 2016-08-01,['hanauma bay'],File or Document,18.0,0.0008456659619450317
-Finance,,Hanauma Bay Expenditures FY17 2016-10-06,['hanauma bay'],File or Document,17.0,0.0007986845196147522
-Finance,,Hanauma Bay Expenditures FY17 2016-08-01,['hanauma bay'],File or Document,15.0,0.0007047216349541931
-Finance,,Hanauma Bay Expenditures FY17 2016-09-01,['hanauma bay'],File or Document,14.0,0.0006577401926239135
-Finance,,Hanauma Bay Revenues FY17 2016-09-01,['hanauma bay'],File or Document,14.0,0.0006577401926239135
-Finance,Proposed City Budget for Fiscal Year 2018,Proposed FY18 Budget,"['proposed', 'budget', 'fy18']",Dataset,12.0,0.0005637773079633545
-Finance,,Hanauma Bay Revenues FY17 2016-10-06,['hanauma bay'],File or Document,11.0,0.0005167958656330749
-Business,This file is a static view of Building Permit data.  This snapshot of data is an extract from the source database as of the moment of the snapshot's creation.  A snapshot does not reflect changes that occur in the live data source.,2010-2016 Building Permits,[],Filtered View,9.0,0.00042283298097251583
-Finance,,Hanauma Bay Expenditures FY17 2016-11-01,['hanauma bay'],File or Document,5.0,0.0002349072116513977
-Finance,,Hanauma Bay Revenues FY17 2016-11-01,['hanauma bay'],File or Document,3.0,0.00014094432699083862
-Finance,,Hanauma Bay Expenditures FY17 2017-03-01,['hanauma bay'],File or Document,2.0,9.396288466055907e-05
-Finance,,Hanauma Bay Revenues FY17 2016-12-02,['hanauma bay'],File or Document,2.0,9.396288466055907e-05
-Finance,,Hanauma Bay Revenues FY17 2017-01-03,['hanauma bay'],File or Document,2.0,9.396288466055907e-05
-Finance,,Hanauma Bay Expenditures FY17 2017-04-03,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Expenditures FY17 2017-01-03,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Revenues FY17 2017-04-03,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Expenditures FY17 2016-12-02,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Expenditures FY17 2017-02-01,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Revenues FY17 2017-02-01,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Revenues FY17 2017-03-01,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Revenues FY17 2017-05-04,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Expenditures FY17 2017-05-04,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
-Finance,,Hanauma Bay Expenditures FY17 2017-06-05,['hanauma bay'],File or Document,1.0,4.698144233027954e-05
+Proposed Budget 2013",City Spending 2010 by Fund,[],Chart,285.0,0.01338782412626832
+,,HART Proposed Budget 2012,[],Dataset,278.0,0.013059000375798572
+Location,"Traffic camera locations as of June 5, 2015",Traffic Camera Locations,[],Dataset,277.0,0.013012025554302893
+Transportation,,DTS/DFM Sign Inventory - Fort St. to River St.  as of: 2014-08-07,[],Dataset,270.0,0.012683201803833146
+,Feature Service of Lifeguard Tower locations island of Oahu,Lifeguard Towers,[],External Link,251.0,0.011790680195415258
+Location,City & County owned land on the island of Oahu,City & County Owned Land,[],External Link,248.0,0.011649755730928222
+Location,Feature Service of Hospitals/Medical Centers within the City & County of Honolulu.,Hospitals,[],External Link,245.0,0.011508831266441187
+Location,State Owned Lands on the island of Oahu,State Owned Land,[],External Link,239.0,0.011226982337467118
+Transportation,,Electric Vehicle Charging Stations,[],External Link,226.0,0.0106163096580233
+,Feature Service of refuse manual pick up routes.,Refuse Manual Pick Up Routes,[],External Link,220.0,0.01033446072904923
+,,Curbside Collection/Schedules,[],External Link,219.0,0.010287485907553552
+Location,Federal owned lands on the island of Oahu,Federal Owned Land,[],External Link,208.0,0.00977076287110109
+Recreation,City & County exceptional tree database,Exceptional Trees On Oahu Mapped,['trees'],External Link,200.0,0.009394964299135663
+,State Lessee Land on the island of Oahu,State Lessee Land,[],External Link,198.0,0.009301014656144307
+Location,City & County Lessee Lands on the island of Oahu,City & County Lessee Land,[],External Link,184.0,0.00864336715520481
+Transportation,Map of Road Rehabilitation Projects between 2013 to 2017 for the City and County of Honolulu,Road Repaving (Rehabilitation),"['repaving', 'road']",External Link,182.0,0.008549417512213454
+,Basemap for City and County of Honolulu,Basemap for City and County of Honolulu,[],External Link,179.0,0.008408493047726418
+,Federal Lessee Land for the island of Oahu,Federal Lessee Land,[],External Link,178.0,0.00836151822623074
+Finance,,Hanauma Bay Revenues FY14 2013-12-31,['hanauma bay'],File or Document,173.0,0.008126644118752349
+Transportation,,Existing Bike Facilities,[],Dataset,169.0,0.007938744832769636
+Transportation,,Oahu Bikeways Map,"['bicycle', 'bike', 'bikeway']",External Link,169.0,0.007938744832769636
+,Refuse Auto Pickup Routes Feature Service,Refuse Auto Pickup Routes,[],External Link,166.0,0.0077978203682826
+Finance,,Hanauma Bay Expenditures FY14 2014-07-17,['hanauma bay'],File or Document,152.0,0.007140172867343104
+Finance,Expenditures and Encumbrances for Hanauma Bay for FY 2013,Hanauma Bay Expenditures FY13 6-30-13 Final,[],File or Document,147.0,0.006905298759864713
+Business,This file is a static view of Building Permit data.  This snapshot of data is an extract from the source database as of the moment of the snapshot's creation.  A snapshot does not reflect changes that occur in the live data source.,"Building Permits - January 1, 2005 thru December 31, 2016",[],Dataset,144.0,0.006764374295377677
+Public Safety,Web map of the various public safety related services on Oahu,Public Safety Service Locations,[],External Link,142.0,0.006670424652386321
+Finance,,Hanauma Bay Revenues FY13 Final,['hanauma bay'],File or Document,137.0,0.0064355505449079295
+,Updated daily with reports from the past month.,home,[],Filtered View,135.0,0.006341600901916573
+Finance,FY 2014 Expenditures and Encumbrances for Hanauma Bay as of 12-31/13,Hanauma Bay Expenditures FY14 12-31-13,[],File or Document,131.0,0.00615370161593386
+Finance,,Hanauma Bay Expenditures FY15 2014-10-01,['hanauma bay'],File or Document,131.0,0.00615370161593386
+Location,,Soil Types,[],External Link,129.0,0.006059751972942503
+Finance,,Hanauma Bay Expenditures Detail FY14 2014-07-17,['hanauma bay'],File or Document,129.0,0.006059751972942503
+Public Safety,,Storm Water System,[],External Link,128.0,0.006012777151446824
+Finance,,Hanauma Bay Expenditures FY14 2014-08-06,['hanauma bay'],File or Document,128.0,0.006012777151446824
+Finance,,Hanauma Bay Revenues FY15 2014-12-04,['hanauma bay'],File or Document,124.0,0.005824877865464111
+Finance,,Hanauma Bay Expenditures FY15 2014-11-05,['hanauma bay'],File or Document,122.0,0.005730928222472754
+Finance,,Hanauma Bay Expenditures FY14 2014-03-31,['hanauma bay'],File or Document,122.0,0.005730928222472754
+Finance,,Hanauma Bay Revenues FY15 2014-09-02,['hanauma bay'],File or Document,118.0,0.005543028936490041
+Finance,,Hanauma Bay Expenditures FY15 2014-09-02,['hanauma bay'],File or Document,117.0,0.005496054114994363
+Finance,,Hanauma Bay Revenues FY14 2014-07-17,['hanauma bay'],File or Document,114.0,0.005355129650507328
+Recreation,,Parks by Activity,[],External Link,113.0,0.00530815482901165
+Finance,,Hanauma Bay Revenues FY15 2015-03-31,['hanauma bay'],File or Document,110.0,0.005167230364524615
+Finance,,Hanauma Bay Revenues FY15 2015-01-31,['hanauma bay'],File or Document,109.0,0.005120255543028937
+Finance,,Hanauma Bay Revenues FY15 2014-08-06,['hanauma bay'],File or Document,108.0,0.005073280721533258
+Finance,,Hanauma Bay Revenues FY14 2014-03-31,['hanauma bay'],File or Document,108.0,0.005073280721533258
+Finance,,Hanauma Bay Expenditures FY15 2014-12-04,['hanauma bay'],File or Document,102.0,0.004791431792559188
+Finance,,Hanauma Bay Expenditures FY15 2014-12-31,['hanauma bay'],File or Document,102.0,0.004791431792559188
+Finance,,Hanauma Bay Revenues FY15 2014-10-01,['hanauma bay'],File or Document,101.0,0.00474445697106351
+Finance,,Hanauma Bay Revenues FY15 2015-02-28,['hanauma bay'],File or Document,97.0,0.004556557685080797
+Public Safety,A snapshot of Crime Incidents from the Honolulu Police Department,July 1 2016,[],Filtered View,96.0,0.004509582863585118
+Finance,,Hanauma Bay Expenditures FY15 2015-03-31,['hanauma bay'],File or Document,94.0,0.0044156332205937615
+Finance,,Hanauma Bay Revenues FY15 2015-04-30,['hanauma bay'],File or Document,92.0,0.004321683577602405
+Transportation,,DTS/DFM Sign Inventory - Fort St. to River St. as of: 2014-08-07,[],Map,89.0,0.00418075911311537
+Finance,,Hanauma Bay Revenues FY15 2014-11-05,['hanauma bay'],File or Document,86.0,0.004039834648628335
+Finance,,Hanauma Bay Revenues FY15 2015-06-30,['hanauma bay'],File or Document,86.0,0.004039834648628335
+Finance,,Hanauma Bay Revenues FY15 2014-11-05,['hanauma bay'],File or Document,86.0,0.004039834648628335
+Recreation,,Shoreline Access Points,[],External Link,85.0,0.003992859827132657
+Finance,,Hanauma Bay Expenditures FY15 2015-01-31,['hanauma bay'],File or Document,85.0,0.003992859827132657
+Finance,,Hanauma Bay Revenues FY15 2015-05-31,['hanauma bay'],File or Document,80.0,0.003757985719654265
+Finance,,Hanauma Bay Revenues FY15 2014-12-31,['hanauma bay'],File or Document,79.0,0.003711010898158587
+Finance,,Hanauma Bay Expenditures FY15 2015-04-30,['hanauma bay'],File or Document,77.0,0.00361706125516723
+Transportation,,Existing Bike Facilities Mapped,[],Map,77.0,0.00361706125516723
+Finance,,Hanauma Bay Expenditures FY15 2015-06-30,['hanauma bay'],File or Document,76.0,0.003570086433671552
+Finance,,Hanauma Bay Expenditures FY15 2015-05-31,['hanauma bay'],File or Document,74.0,0.0034761367906801953
+Finance,,Hanauma Bay Revenues FY16 2015-07-31,['hanauma bay'],File or Document,71.0,0.0033352123261931603
+Finance,,Hanauma Bay Revenues FY16 2015-07-31,['hanauma bay'],File or Document,71.0,0.0033352123261931603
+Finance,,Hanauma Bay Expenditures FY16 2016-02-01,['hanauma bay'],File or Document,64.0,0.003006388575723412
+Finance,,Hanauma Bay Revenues FY16 2015-08-31,['hanauma bay'],File or Document,62.0,0.0029124389327320555
+Finance,,Hanauma Bay Expenditures FY16 2015-07-31,['hanauma bay'],File or Document,61.0,0.002865464111236377
+Finance,,Hanauma Bay Expenditures FY16 2015-11-09,['hanauma bay'],File or Document,61.0,0.002865464111236377
+Finance,,Hanauma Bay Revenues FY16 2015-10-01,['hanauma bay'],File or Document,59.0,0.0027715144682450205
+Finance,,Hanauma Bay Revenues FY16 2015-12-01,['hanauma bay'],File or Document,59.0,0.0027715144682450205
+Finance,,Hanauma Bay Expenditures FY16 2015-08-31,['hanauma bay'],File or Document,56.0,0.0026305900037579856
+Finance,,Hanauma Bay Expenditures FY16 2016-01-08,['hanauma bay'],File or Document,53.0,0.0024896655392709507
+Finance,,Hanauma Bay Revenues FY16 2016-01-08,['hanauma bay'],File or Document,51.0,0.002395715896279594
+Finance,,Hanauma Bay Expenditures FY16 2016-03-01,['hanauma bay'],File or Document,51.0,0.002395715896279594
+Finance,,Hanauma Bay Revenues FY16 2015-11-09,['hanauma bay'],File or Document,50.0,0.0023487410747839157
+Finance,,Hanauma Bay Revenues FY16 2016-02-01,['hanauma bay'],File or Document,49.0,0.0023017662532882374
+Finance,,Hanauma Bay Expenditures FY16 2015-12-01,['hanauma bay'],File or Document,48.0,0.002254791431792559
+Finance,,Hanauma Bay Expenditures FY16 2015-10-01,['hanauma bay'],File or Document,45.0,0.002113866967305524
+Finance,Adopted Fiscal Year 2017 Budget,Adopted FY17 Budget by Department,"['adopted', 'budget', 'fiscal year 2017', 'fy17']",Chart,40.0,0.0018789928598271326
+Finance,,Hanauma Bay Revenues FY16 2016-03-01,['hanauma bay'],File or Document,35.0,0.001644118752348741
+Finance,,Hanauma Bay Expenditures FY16 2016-03-31,['hanauma bay'],File or Document,35.0,0.001644118752348741
+Finance,,Hanauma Bay Expenditures FY16 2016-06-02,['hanauma bay'],File or Document,30.0,0.0014092446448703494
+Finance,,Hanauma Bay Revenues FY16 2016-06-02,['hanauma bay'],File or Document,29.0,0.0013622698233746711
+Finance,2016-05-03,Hanauma Bay Expenditures FY16,['hanauma bay'],File or Document,27.0,0.0012683201803833145
+Finance,,Hanauma Bay Revenues FY16 2016-03-31,['hanauma bay'],File or Document,24.0,0.0011273957158962795
+Finance,,Hanauma Bay Expenditures FY16 2016-07-01,['hanauma bay'],File or Document,22.0,0.001033446072904923
+Finance,2016-05-03,Hanauma Bay Revenues FY16,['hanauma bay'],File or Document,21.0,0.0009864712514092446
+Business,This file is a static view of Building Permit data.  This snapshot of data is an extract from the source database as of the moment of the snapshot's creation.  A snapshot does not reflect changes that occur in the live data source.,2016 By Contractor,[],Filtered View,20.0,0.0009394964299135663
+Business,This file is a static view of Building Permit data.  This snapshot of data is an extract from the source database as of the moment of the snapshot's creation.  A snapshot does not reflect changes that occur in the live data source.,2016 Building Permits,[],Filtered View,19.0,0.000892521608417888
+Finance,,Hanauma Bay Revenues FY16 2016-07-01,['hanauma bay'],File or Document,19.0,0.000892521608417888
+Finance,,Hanauma Bay Revenues FY17 2016-08-01,['hanauma bay'],File or Document,18.0,0.0008455467869222097
+Finance,,Hanauma Bay Expenditures FY17 2016-10-06,['hanauma bay'],File or Document,17.0,0.0007985719654265313
+Finance,,Hanauma Bay Expenditures FY17 2016-08-01,['hanauma bay'],File or Document,15.0,0.0007046223224351747
+Finance,Proposed City Budget for Fiscal Year 2018,Proposed FY18 Budget,"['proposed', 'budget', 'fy18']",Dataset,15.0,0.0007046223224351747
+Finance,,Hanauma Bay Expenditures FY17 2016-09-01,['hanauma bay'],File or Document,14.0,0.0006576475009394964
+Finance,,Hanauma Bay Revenues FY17 2016-09-01,['hanauma bay'],File or Document,14.0,0.0006576475009394964
+Business,This file is a static view of Building Permit data.  This snapshot of data is an extract from the source database as of the moment of the snapshot's creation.  A snapshot does not reflect changes that occur in the live data source.,2010-2016 Building Permits,[],Filtered View,11.0,0.0005167230364524615
+Finance,,Hanauma Bay Revenues FY17 2016-10-06,['hanauma bay'],File or Document,11.0,0.0005167230364524615
+Finance,,Hanauma Bay Expenditures FY17 2016-11-01,['hanauma bay'],File or Document,5.0,0.00023487410747839157
+Finance,,Hanauma Bay Revenues FY17 2016-11-01,['hanauma bay'],File or Document,3.0,0.00014092446448703494
+Finance,,Hanauma Bay Expenditures FY17 2017-06-05,['hanauma bay'],File or Document,2.0,9.394964299135663e-05
+Finance,,Hanauma Bay Expenditures FY17 2017-03-01,['hanauma bay'],File or Document,2.0,9.394964299135663e-05
+Finance,,Hanauma Bay Revenues FY17 2016-12-02,['hanauma bay'],File or Document,2.0,9.394964299135663e-05
+Finance,,Hanauma Bay Revenues FY17 2017-01-03,['hanauma bay'],File or Document,2.0,9.394964299135663e-05
+Finance,,Hanauma Bay Revenues FY17 2017-03-01,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
+Finance,,Hanauma Bay Revenues FY17 2017-05-04,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
+Finance,,Hanauma Bay Expenditures FY17 2017-04-03,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
+Finance,,Hanauma Bay Expenditures FY17 2017-05-04,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
+Finance,,Hanauma Bay Revenues FY17 2017-02-01,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
+Finance,,Hanauma Bay Expenditures FY17 2016-12-02,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
+Finance,,Hanauma Bay Expenditures FY17 2017-01-03,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
+Finance,,Hanauma Bay Revenues FY17 2017-04-03,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
+Finance,,Hanauma Bay Expenditures FY17 2017-02-01,['hanauma bay'],File or Document,1.0,4.6974821495678314e-05
 Finance,,Hanauma Bay Revenues FY17 2017-06-05,['hanauma bay'],File or Document,0.0,0.0

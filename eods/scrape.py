@@ -1,7 +1,7 @@
 import bs4
 import numpy as np
 import pandas as pd
-import re
+import re #regex module
 import urllib.request as req
 
 
@@ -38,14 +38,18 @@ class Place(object):
 
         link = (self.link if self.link[-1] == '/' else self.link + '/')
 
-        return link + 'browse?sortBy=most_accessed'
+        return link + 'browse?sortBy=most_accessed' #may be causing quite a few errors
+        #this is a sorting mechanism
+        #actually not needed if you are truly scraping all pages
 
     def _get_info(self): 
         try: 
-            s = self._get_soup(self._link_to_try)
+            s = self._get_soup(self._link_to_try) #get soup returns soup object
+            #and prints <class: 'bs4..'> to the console of successful
+            #even if it's a 404 site you can probably still get soup with no error
         #except urllib.error.HTTPError: #updated for new urllib.request package
         except:
-            print('Error Scraping ' + _link_to_try)
+            print('Error Scraping ' + _link_to_try) #not printing; it's getting soup
             pass
         else: 
             print('Evaluating Socrata status')
@@ -54,25 +58,31 @@ class Place(object):
                 print('Starting: ' + self.name) 
                 self.datasets = pd.DataFrame() #empty df
                 for res in self._read_page(s): #_read_page(s) returns what it finds from soup object
-                    self._parse_result(res) 
-                end_page_num = self._get_end_num(s)
+                    self._parse_result(res) #parse result builds result_dict's attributes
+                    #by searching through sections identified by various html tags
+                end_page_num = self._get_end_num(s) #s is soup object
+                #if this evaluates to False, _read_all_pages doesn't run
                 if end_page_num:
                     self._read_all_pages(2, end_page_num + 1)
                 v = self.datasets['views']
                 self.datasets['views_norm'] = v / np.linalg.norm(v, ord=np.inf)
                 print('Completed: ' + self.name) 
             else:
-                print('Not a Socrata Site')
+                print('Not a Socrata Site' + _link_to_try) #not printing
+                #either all sites are Socrata and something else is going wrong,
+                #or this isn't evaluating
                 print('Not Socrata? ' + _link_to_try) 
                 pass
         finally:
             return
 
     def _read_all_pages(self, start, end):
-        print('running _read_all_pages')
-        for num in range(start, end): #range(start, end) to scrape all
+        print('running _read_all_pages') #this doesn't print when child_tag is empty
+        #but even when it doesn't run, you're getting that dataset (at least sometimes)
+        for num in range(start, 50): #range(start, end) to scrape all
             url = self._link_to_try + '&utf8=%E2%9C%93&page=' + str(num)
             for result in self._read_page(self._get_soup(url)):
+                #url is what _link_to_try produced, plus a utf8 expression for page number
                 self._parse_result(result)
             if num % 10 == 0: print('Completed page ' + str(num))
 
@@ -97,12 +107,13 @@ class Place(object):
         return ('ocrata' in str(comments)) #evaluates to boolean
 
     @staticmethod
-    def _read_page(page_soup):
+    def _read_page(page_soup): #this likely failed on De Leon - 
+        #printed 'Reading through page..' but never got to _parse_result
         #print('Reading through page..')
         return page_soup.find_all('div', {'class': 'browse2-result'})
 
     def _parse_result(self, result):
-        #print('Parsing results..')
+        #print('Parsing results..') #this runs over and over again
         #__find builds your result_dict; result dict is passed to .datasets attr
         def _find(child_tag_type, class_):
             #result is a soup object 
@@ -110,7 +121,10 @@ class Place(object):
                                     {'class': 'browse2-result-' + class_})
             
             if child_tag == None:
-                print('Whoops, no child_tag')
+                print('Whoops, no child_tag') 
+                #if there's no child tag, just means that particular page
+                #of a city's open data website didn't have the data we were looking for
+                #a city can have many no child tag sites and still return data
                 return None 
 
             else:
@@ -137,8 +151,11 @@ class Place(object):
     @staticmethod
     def _get_end_num(page_soup):
         link = page_soup.find('a', {'class': 'lastLink'}).get('href')
+        #above returns last link in <a> tag, e.g. http://example.com/exampledata
         end_num = re.search(r".+&page=(\d+)", link).group(1)
-
+        #.search() returns ONE instance of the pattern you feed it
+        #.group(1) - 1 arg returns for parenthesized subgroup
+        print('End Page Number: ' + end_num)
         return int(end_num)
 
     @staticmethod
@@ -148,7 +165,7 @@ class Place(object):
 
     def make_csv(self, folder='output/'):
         print('Exporting csv file..') 
-        file_name = re.sub(r"[\.\[\] (]", r"_", self.name).replace(')', '.csv')
+        file_name = re.sub(r"[\.\[\] (\/]", r"_", self.name).replace(')', '.csv')
         if self.datasets is not None:
             self.datasets.to_csv(folder + file_name, index=False)
             print('Exported file: ' + file_name)
@@ -158,8 +175,10 @@ class Place(object):
         return
 
 def visit_all_sites(file_path='data/local_open_data_portals.csv'):
-    print('Scraping all Socrata sites. This may take a few minutes.\n')
-    all_places_df = pd.read_csv(file_path)
+    print('Scraping all Socrata sites. This may take a few minutes.\n') 
+    all_places_df = pd.read_csv(file_path).loc[70:76]
+    #all_places+df - this should have all 169 site links in it
+    print('All Places DataFrame Length: ' + str(len(all_places_df.index))) #could use this to check
     all_places = {} 
     for row in all_places_df.iterrows():
         new_place = Place(row[1].to_dict()) #access the iterrows() Series;
@@ -169,14 +188,14 @@ def visit_all_sites(file_path='data/local_open_data_portals.csv'):
 
     socrata_places = {k: v for k, v in all_places.items() 
         if (v.datasets is not None) and not v.datasets.empty} 
-    print('Socrats Sites Found: ') 
+    print('Socrata Sites Found: ') 
     print(len(socrata_places))
 
     return all_places, socrata_places
 
 def make_csvs(dict_, folder='output/'):
     print('Making csv file..')
-    for place in dict_.values(): ##socrata_places is dict_. is socrata places empty?
+    for place in dict_.values(): 
         place.make_csv(folder)
 
     return

@@ -1,0 +1,64 @@
+category,descrip,name,topics,type,views,views_norm
+,Checks written to pay for products and services received by the City.,drew,[],Chart,32781.0,1.0
+Finance,Checks written to pay for products and services received by the City.,Check Register,['payments'],Dataset,12595.0,0.38421646685580063
+,,Redmond Facilities Map,[],Map,11045.0,0.3369329794698148
+Finance,Shows credit card purchases.,Purchasing Card Transactions,['purchases'],Dataset,9515.0,0.2902596015984869
+,,Check Register Grouped by Payee,[],Filtered View,4929.0,0.1503614898874348
+Government,"Contains a snapshot view of issued permit data, updated monthly.",Issued Permits,['building'],Dataset,4137.0,0.1262011531069827
+,,Bar Chart showing check payments by payee,[],Chart,3525.0,0.10753180195845154
+,"Contains a snapshot of issued permit data, updated monthly.",Issued_Permits_CDR,[],Filtered View,3246.0,0.0990207742289741
+,,Pie Chart Checks Grouped by Payee,[],Chart,2456.0,0.0749214483999878
+,"Contains a snapshot of issued permit data, updated monthly.",Issued Bldg and Electrical Permits,[],Filtered View,2327.0,0.07098624203044447
+,"Contains a snapshot of issued permit data, updated monthly.",Issued Permits Filtered by Valuation,[],Filtered View,2088.0,0.06369543333028278
+,"Contains a snapshot of issued permit data, updated monthly.",Issued Fire Permits,[],Filtered View,1610.0,0.04911381592995943
+Government,The list of transportation projects and programs that the City of Redmond expects to deliver between 2013 and 2030: http://www.redmond.gov/tmp.,Transportation Facilities Plan - Main View,[],Filtered View,1427.0,0.04353131387083982
+Finance,Issued to acquire and track products and services,Purchase Orders & Purchase Agreements,[],Dataset,1283.0,0.03913852536530307
+Government,The list of transportation projects and programs that the City of Redmond expects to deliver between 2013 and 2030: http://www.redmond.gov/tmp.,TFP - Completion Status (Projects Only),[],Chart,1255.0,0.038284372044782036
+,,City Limits,[],Map,1174.0,0.03581342851041762
+Government,A short term list of tasks needed to implement the Transportation Master Plan: http://www.redmond.gov/tmp.,Three Year Action Plan - Completion Status,[],Chart,943.0,0.028766663616119095
+Government,A short term list of tasks needed to implement the Transportation Master Plan: http://www.redmond.gov/tmp.,Three Year Action Plan - Main View,[],Filtered View,922.0,0.028126048625728317
+Education,,Redmond Facilities,['locations'],Dataset,891.0,0.0271803788780086
+,"Contains a snapshot of issued permit data, updated monthly.",New Residential Permits Map,[],Map,866.0,0.02641774198468625
+,,Redmond Neighborhood Boundaries,[],Map,816.0,0.02489246819804155
+Government,"A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.",Business Licenses,[],Chart,772.0,0.02355022726579421
+Government,"A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.",Population and Jobs,[],Chart,758.0,0.023123150605533695
+Government,"A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.",Downtown and Overlake Urban Centers Jobs,[],Chart,720.0,0.02196394252768372
+Education,,Historic Redmond,[],Dataset,626.0,0.01909642780879168
+Government,The list of transportation projects and programs that the City of Redmond expects to deliver between 2013 and 2030: http://www.redmond.gov/tmp.,Transportation Facilities Plan,[],Dataset,493.0,0.015039199536316768
+,,Historic Redmond Map,[],Map,477.0,0.014551111924590463
+Government,"A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.",Sales and Property Tax Receipts,[],Chart,469.0,0.014307068118727312
+Government,"A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.",Median Household Income,[],Chart,446.0,0.013605442176870748
+,Checks written to pay for products and services received by the City.,mailings by vendor,[],Chart,421.0,0.012842805283548397
+Government,A short term list of tasks needed to implement the Transportation Master Plan: http://www.redmond.gov/tmp.,Three Year Action Plan,[],Dataset,420.0,0.012812299807815503
+Government,"A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.",Child Poverty Rate,[],Chart,420.0,0.012812299807815503
+,"Contains a snapshot of issued permit data, updated monthly.",RedmondNewHomes,[],Filtered View,402.0,0.01226320124462341
+Government,The list of transportation projects and programs that the City of Redmond expects to deliver between 2013 and 2030: http://www.redmond.gov/tmp.,TFP Rollup - $ by Neighborhood,[],Filtered View,362.0,0.011042982215307648
+,Checks written to pay for products and services received by the City.,Check Register,[],Data Lens,345.0,0.01052438912784845
+Government,The list of transportation projects and programs that the City of Redmond expects to deliver between 2013 and 2030: http://www.redmond.gov/tmp.,TFP - Projects Only,[],Filtered View,335.0,0.010219334370519507
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Auto Network Completion,[],Chart,302.0,0.009212653671334005
+Government,The list of transportation projects and programs that the City of Redmond expects to deliver between 2013 and 2030: http://www.redmond.gov/tmp.,TFP - Funding by Neighborhood,[],Chart,289.0,0.008816082486806381
+Government,"A set of basic demographic and economic data such as population, jobs, business licenses, income and poverty rate.",Population and Economic Indicators,[],Dataset,287.0,0.008755071535340594
+Government,The list of transportation projects and programs that the City of Redmond expects to deliver between 2013 and 2030: http://www.redmond.gov/tmp.,TFP - Rollup $ by Status,[],Filtered View,280.0,0.008541533205210335
+Government,A short term list of tasks needed to implement the Transportation Master Plan: http://www.redmond.gov/tmp.,Three Year Action Plan - Rollup Status,[],Filtered View,278.0,0.008480522253744547
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Pavement Condition Index,[],Chart,268.0,0.008175467496415607
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Concurrency,[],Chart,247.0,0.007534852506024831
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Freight System Completion,[],Chart,242.0,0.007382325127360361
+,"Contains a snapshot of issued permit data, updated monthly.",RedmondNewHomes-PermitTypeResidential,[],Filtered View,229.0,0.006985753942832739
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Bicycle Network Completion,[],Chart,223.0,0.006802721088435374
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Transportation Performance Measures,[],Dataset,216.0,0.006589182758305116
+Finance,This data shows the expenditures for the City of Redmond budget. It is one of 4 datasets that feed into the http://Budget.Redmond.gov data viewer.,Redmond Operating Budget,['budget'],Dataset,208.0,0.006345138952441963
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Air Quality PM 2.5,[],Chart,198.0,0.006040084195113023
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Transit System Completion,[],Chart,196.0,0.005979073243647235
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Traffic Injury Rate,[],Chart,196.0,0.005979073243647235
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Pedestrian System Completion,[],Chart,156.0,0.004758854214331473
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Connectivity,[],Chart,132.0,0.004026722796742015
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Stormwater Treatment,[],Chart,125.0,0.003813184466611757
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Transit Ridership,[],Chart,115.0,0.003508129709282816
+,"Contains a snapshot of issued permit data, updated monthly.",bruceLee,[],Filtered View,102.0,0.0031115585247551937
+Finance,This data shows the revenue for the City of Redmond budget. It is one of 4 datasets that feed into the http://Budget.Redmond.gov data viewer.,Revenue Budget Data,['budget'],Dataset,73.0,0.002226899728501266
+Finance,This data shows the one time expenses for the City of Redmond budget. It is one of 4 datasets that feed into the http://Budget.Redmond.gov data viewer.,Redmond Capital Budget,['budget'],Dataset,46.0,0.0014032518837131264
+Finance,This data shows projects from the City of Redmond budget. It is one of 4 datasets that feed into the http://Budget.Redmond.gov data viewer.,Redmond Capital Projects,['budget'],Dataset,36.0,0.0010981971263841859
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Transit Ridership 072016,[],Chart,31.0,0.0009456697477197157
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Connectivity 072016,[],Chart,30.0,0.0009151642719868216
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Transit Boarding Chart,[],Chart,24.0,0.0007321314175894573
+Government,"This dataset includes the 9 performances measures collected by the City of Redmond to monitor delivery of the Transportation Master Plan. For more information about the TMP, please visit http://www.redmond.gov/TMP.",Connectivity - Overlake,[],Chart,22.0,0.0006711204661236692
